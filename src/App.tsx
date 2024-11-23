@@ -1,0 +1,45 @@
+import { ThemeProvider } from 'styled-components';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Playground, Home, PageNotFound } from './pages';
+import { ApplyLayout } from './layout';
+import { APP_ROUTES } from './constants';
+import { GlobalStyles, theme } from './base';
+
+function App() {
+	return (
+		<ThemeProvider theme={theme}>
+			<GlobalStyles />
+
+			<BrowserRouter>
+				<Routes>
+					{/* Playground page for developers */}
+					{/* Not visible in production */}
+					{process.env.NODE_ENV === 'development' && (
+						<Route path={APP_ROUTES.playground} element={<Playground />} />
+					)}
+
+					{/* Pages that have their own default layout */}
+
+					{/* Use default layout on theses pages */}
+					<Route element={<ApplyLayout />}>
+						<Route path={APP_ROUTES.home} element={<Home />} />
+					</Route>
+
+					<Route path="*" element={<PageNotFound />} />
+				</Routes>
+			</BrowserRouter>
+
+			<ToastContainer
+				limit={2}
+				autoClose={3000}
+				closeButton={false}
+				position="top-center"
+				hideProgressBar={true}
+			/>
+		</ThemeProvider>
+	);
+}
+
+export default App;
