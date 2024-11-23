@@ -52,8 +52,12 @@ const GlobalStyles = createGlobalStyle`
       text-transform: uppercase;
    }
    .display2 {
+      ${({ theme }) => theme.fonts.syncFont};
+
       font-size: 2.5rem;
       line-height: 132.5%; 
+      text-transform: uppercase;
+      font-weight: 400;
    }
    /* h1 {
       font-size: 3rem;
