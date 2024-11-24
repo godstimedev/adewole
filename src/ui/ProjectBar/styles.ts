@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { maxQuery } from '../../utilities';
 
 export const Container = styled.div`
 	background-color: #f7f7f7;
@@ -9,9 +10,18 @@ export const Container = styled.div`
 	align-items: center;
 	gap: 1rem;
 
+	${maxQuery('md')} {
+		padding: 1rem 1.5rem;
+	}
+
 	> div:first-child {
 		width: 62.52px;
 		height: 62.52px;
+
+		${maxQuery('md')} {
+			width: 34.46px;
+			height: 34.46px;
+		}
 
 		img {
 			width: 100%;
@@ -38,6 +48,13 @@ export const Container = styled.div`
 			font-weight: 600;
 			line-height: 1.32875rem;
 
+			${maxQuery('md')} {
+				font-size: 0.61rem;
+				font-weight: 600;
+				line-height: 0.7325rem;
+				letter-spacing: -0.01876768656075rem;
+			}
+
 			span {
 				text-transform: capitalize;
 				color: #808080;
@@ -54,6 +71,13 @@ export const Container = styled.div`
 				font-weight: 500;
 				line-height: 1.07rem;
 				letter-spacing: -0.0136rem;
+
+				${maxQuery('md')} {
+					font-size: 0.395rem;
+					font-weight: 500;
+					line-height: 0.59rem;
+					letter-spacing: -0.007515763398259878rem;
+				}
 			}
 		}
 	}
