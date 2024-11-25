@@ -45,7 +45,13 @@ export const Container = styled.div`
 				letter-spacing: 0.038rem;
 				text-transform: uppercase;
 				-webkit-text-stroke: 0.5px #808080e3;
-				text-stroke: 0.5px #808080e3;
+				/* text-stroke: 0.5px #808080e3; */
+
+				${maxQuery('sm')} {
+					font-size: 0.84rem;
+					line-height: 1.08875rem;
+					letter-spacing: 0.032rem;
+				}
 			}
 
 			h3 {
@@ -56,6 +62,11 @@ export const Container = styled.div`
 				line-height: 2rem;
 				color: ${({ theme }) => theme.colors.black};
 				text-transform: uppercase;
+
+				${maxQuery('sm')} {
+					font-size: 1.26rem;
+					line-height: 1.68rem;
+				}
 			}
 		}
 
@@ -67,6 +78,12 @@ export const Container = styled.div`
 
 			${maxQuery('md')} {
 				text-align: center;
+			}
+
+			${maxQuery('sm')} {
+				font-size: 0.788125rem;
+				font-weight: 400;
+				line-height: 1.26rem;
 			}
 		}
 	}
@@ -86,6 +103,11 @@ export const Container = styled.div`
 
 		${maxQuery('md')} {
 			margin: auto;
+		}
+
+		${maxQuery('sm')} {
+			font-size: 0.788125rem;
+			line-height: 1.08375rem;
 		}
 
 		&:hover {
