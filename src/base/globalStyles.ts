@@ -27,6 +27,7 @@ const GlobalStyles = createGlobalStyle`
       cursor: pointer;
       font-weight: 600;
       outline: none;
+      background: transparent;
    }
    a {
       color: inherit;
@@ -69,6 +70,8 @@ const GlobalStyles = createGlobalStyle`
          line-height: 3.3125rem; 
       };
    }
+
+ 
    /* h1 {
       font-size: 3rem;
       line-height: 120%;

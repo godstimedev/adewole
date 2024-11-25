@@ -1,3 +1,4 @@
+import Clients from './Clients';
 import Hero from './Hero';
 import Projects from './Projects';
 import { Container } from './styles';
@@ -7,6 +8,7 @@ const HomePage = () => {
 		<Container>
 			<Hero />
 			<Projects />
+			<Clients />
 		</Container>
 	);
 };
