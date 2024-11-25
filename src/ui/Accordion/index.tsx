@@ -14,8 +14,9 @@ const FaqAccordion = (props: AccordionProps) => {
 
 	return (
 		<Container>
+			<hr />
 			{items?.map((item, index) => (
-				<div key={index} className="accordion-item">
+				<div key={index} className={`accordion-item ${openIndex === index ? 'open' : ''}`}>
 					<button className="accordion-header" onClick={() => toggleAccordion(index)}>
 						{item.title}
 						<span className="toggle">{openIndex === index ? '-' : '+'}</span>

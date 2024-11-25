@@ -6,20 +6,19 @@ export const Container = styled.section`
 	display: flex;
 	flex-direction: column;
 	gap: 3rem;
+	margin-bottom: 4rem;
 
 	${maxQuery('md')} {
-		gap: 2rem;
+		gap: 3rem;
 	}
 
 	.resume {
 		display: flex;
-		/* align-items: center; */
 		justify-content: space-between;
-		gap: 3rem;
+		gap: 4rem;
 
 		${maxQuery('md')} {
 			flex-direction: column;
-			gap: 2rem;
 		}
 
 		> div {
@@ -33,6 +32,12 @@ export const Container = styled.section`
 				font-size: 1.5rem;
 				font-weight: 700;
 				line-height: 1.3225rem;
+
+				${maxQuery('sm')} {
+					font-size: 16px;
+					font-weight: 700;
+					line-height: 12.56px;
+				}
 			}
 		}
 	}
@@ -43,6 +48,11 @@ export const Container = styled.section`
 		gap: 1rem;
 		padding-bottom: 2rem;
 
+		${maxQuery('sm')} {
+			padding-bottom: 1.5rem;
+			gap: 0.5rem;
+		}
+
 		> div {
 			display: flex;
 			align-items: center;
@@ -52,6 +62,12 @@ export const Container = styled.section`
 				font-size: 1.25rem;
 				font-weight: 700;
 				line-height: 2.2rem;
+
+				${maxQuery('sm')} {
+					font-size: 12px;
+					font-weight: 700;
+					line-height: 21px;
+				}
 			}
 
 			span {
@@ -60,6 +76,16 @@ export const Container = styled.section`
 				font-weight: 700;
 				line-height: 2.5rem;
 				letter-spacing: 0.035rem;
+
+				&.present {
+					color: ${({ theme }) => theme.colors.primary500};
+				}
+
+				${maxQuery('sm')} {
+					font-size: 10px;
+					line-height: 24.15px;
+					letter-spacing: 0.34px;
+				}
 			}
 		}
 
@@ -68,6 +94,12 @@ export const Container = styled.section`
 			font-weight: 400;
 			line-height: 1.5rem;
 			color: #777777;
+
+			${maxQuery('sm')} {
+				font-size: 10px;
+				font-weight: 400;
+				line-height: 14.28px;
+			}
 		}
 	}
 `;

@@ -8,6 +8,8 @@ const GlobalStyles = createGlobalStyle`
       box-sizing: border-box;
       padding: 0;
       margin: 0;
+
+      -webkit-tap-highlight-color: transparent;
    }
    body {
       ${({ theme }) => theme.fonts.kanitFont};
@@ -17,6 +19,7 @@ const GlobalStyles = createGlobalStyle`
 		font-size: 1rem;
 		line-height: 200%;
    }
+      
    ul {
       list-style: none;
    }
@@ -68,6 +71,7 @@ const GlobalStyles = createGlobalStyle`
       @media screen and (max-width:480px) {
          font-size: 1.5rem; 
          line-height: 3.3125rem; 
+         text-align: center;
       };
    }
 
