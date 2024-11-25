@@ -1,6 +1,7 @@
 import Clients from './Clients';
 import Hero from './Hero';
 import Projects from './Projects';
+import Resume from './Resume';
 import { Container } from './styles';
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
 			<Hero />
 			<Projects />
 			<Clients />
+			<Resume />
 		</Container>
 	);
 };
