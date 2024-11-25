@@ -3,17 +3,17 @@ import { Container } from './styles';
 type ProjectBarProps = {
 	title: string;
 	subTitle: string;
-	img: string;
+	logo: string;
 	tags: string[];
 };
 
 const ProjectBar = (props: ProjectBarProps) => {
-	const { title, subTitle, img, tags } = props;
+	const { title, subTitle, logo, tags } = props;
 
 	return (
 		<Container>
 			<div className="img-con">
-				<img src={img} alt={`${title} logo`} />
+				<img src={logo} alt={`${title} logo`} />
 			</div>
 			<div>
 				<h3>

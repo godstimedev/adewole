@@ -14,7 +14,7 @@ export const Container = styled.header`
 	justify-content: center;
 
 	${maxQuery('md')} {
-		padding: 0 2rem;
+		padding: 0 1.5rem;
 	}
 
 	nav {
@@ -80,7 +80,7 @@ export const Container = styled.header`
 		.mobile-nav {
 			background-color: ${({ theme }) => theme.colors.black};
 			top: 0;
-			padding: 2rem;
+			padding: 2rem 1.5rem;
 			width: 100%;
 			height: 100%;
 			display: flex;

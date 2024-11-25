@@ -50,6 +50,11 @@ const GlobalStyles = createGlobalStyle`
       font-size: 3.375rem;
       line-height: 120%;
       text-transform: uppercase;
+
+      @media screen and (max-width:480px) {
+         font-size: 1.75rem; 
+         line-height: 2.375rem; 
+      };
    }
    .display2 {
       ${({ theme }) => theme.fonts.syncFont};
@@ -58,6 +63,11 @@ const GlobalStyles = createGlobalStyle`
       line-height: 132.5%; 
       text-transform: uppercase;
       font-weight: 400;
+
+      @media screen and (max-width:480px) {
+         font-size: 1.5rem; 
+         line-height: 3.3125rem; 
+      };
    }
    /* h1 {
       font-size: 3rem;

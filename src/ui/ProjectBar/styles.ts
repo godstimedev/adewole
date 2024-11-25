@@ -10,15 +10,19 @@ export const Container = styled.div`
 	align-items: center;
 	gap: 1rem;
 
-	${maxQuery('md')} {
-		padding: 1rem 1.5rem;
+	${maxQuery('sm')} {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.55rem 0.65rem;
+		height: 42.5px;
 	}
 
 	> div:first-child {
 		width: 62.52px;
 		height: 62.52px;
 
-		${maxQuery('md')} {
+		${maxQuery('sm')} {
 			width: 34.46px;
 			height: 34.46px;
 		}
@@ -48,7 +52,7 @@ export const Container = styled.div`
 			font-weight: 600;
 			line-height: 1.32875rem;
 
-			${maxQuery('md')} {
+			${maxQuery('sm')} {
 				font-size: 0.61rem;
 				font-weight: 600;
 				line-height: 0.7325rem;
@@ -72,7 +76,7 @@ export const Container = styled.div`
 				line-height: 1.07rem;
 				letter-spacing: -0.0136rem;
 
-				${maxQuery('md')} {
+				${maxQuery('sm')} {
 					font-size: 0.395rem;
 					font-weight: 500;
 					line-height: 0.59rem;

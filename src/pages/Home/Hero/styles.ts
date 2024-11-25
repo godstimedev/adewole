@@ -19,14 +19,22 @@ export const Container = styled.section`
 
 	${maxQuery('xl')} {
 		flex-direction: column-reverse;
-
-		gap: 2rem;
+		gap: 4rem;
+	}
+	${maxQuery('md')} {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	> div:first-child {
 		display: flex;
 		flex-direction: column;
 		gap: 1.5rem;
+
+		${maxQuery('md')} {
+			gap: 2rem;
+		}
 
 		> div {
 			display: flex;
@@ -56,6 +64,11 @@ export const Container = styled.section`
 					line-height: 108.89%;
 					text-decoration-skip-ink: none;
 					text-transform: uppercase;
+
+					${maxQuery('sm')} {
+						font-size: 0.8125rem;
+						line-height: 0.94875rem;
+					}
 				}
 
 				span {
@@ -64,6 +77,11 @@ export const Container = styled.section`
 					line-height: 98%;
 					color: rgba(255, 255, 255, 0.6);
 					text-transform: uppercase;
+
+					${maxQuery('sm')} {
+						font-size: 0.8125rem;
+						line-height: 98%;
+					}
 
 					display: flex;
 					align-items: center;
@@ -80,6 +98,11 @@ export const Container = styled.section`
 
 			&:last-child {
 				gap: 1rem;
+
+				${maxQuery('xl')} {
+					flex-direction: row;
+					justify-content: center;
+				}
 
 				> a {
 					&:hover {
@@ -115,11 +138,21 @@ export const Container = styled.section`
 			${maxQuery('xl')} {
 				text-align: center;
 			}
+
+			${maxQuery('sm')} {
+				font-size: 0.9375rem;
+				font-weight: 400;
+				line-height: 1.3625rem;
+			}
 		}
 	}
 
 	> div:last-child {
 		position: relative;
+
+		${maxQuery('md')} {
+			display: none;
+		}
 
 		> div {
 			width: 490px;

@@ -2,10 +2,14 @@ import styled from 'styled-components';
 import { maxQuery } from '../../../utilities';
 
 export const Container = styled.section`
-	margin-bottom: 10rem;
+	margin-top: 2rem;
 	display: flex;
 	flex-direction: column;
 	gap: 3rem;
+
+	${maxQuery('md')} {
+		gap: 2rem;
+	}
 
 	.projects {
 		display: grid;
