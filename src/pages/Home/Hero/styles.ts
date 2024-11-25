@@ -98,6 +98,7 @@ export const Container = styled.section`
 
 			&:last-child {
 				gap: 1rem;
+				align-items: center;
 
 				${maxQuery('xl')} {
 					flex-direction: row;
