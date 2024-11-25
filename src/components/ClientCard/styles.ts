@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { maxQuery } from '../../utilities';
 
 export const Container = styled.div`
 	padding: 1.5rem 1.5rem 2rem;
@@ -21,10 +22,18 @@ export const Container = styled.div`
 		flex-direction: column;
 		gap: 0.65rem;
 
+		${maxQuery('md')} {
+			align-items: center;
+		}
+
 		> div {
 			display: flex;
 			flex-direction: column;
 			gap: 0.25rem;
+
+			${maxQuery('md')} {
+				align-items: center;
+			}
 
 			span {
 				${({ theme }) => theme.fonts.jostFont};
@@ -55,6 +64,10 @@ export const Container = styled.div`
 			font-size: 0.938125rem;
 			font-weight: 400;
 			line-height: 1.5rem;
+
+			${maxQuery('md')} {
+				text-align: center;
+			}
 		}
 	}
 
@@ -70,6 +83,10 @@ export const Container = styled.div`
 		font-size: 0.938125rem;
 		font-weight: 700;
 		line-height: 1.29rem;
+
+		${maxQuery('md')} {
+			margin: auto;
+		}
 
 		&:hover {
 			color: ${({ theme }) => theme.colors.primary700};
