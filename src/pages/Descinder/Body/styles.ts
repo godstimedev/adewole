@@ -409,7 +409,8 @@ export const Container = styled.section`
 	> div:last-child {
 		display: flex;
 		flex-direction: column;
-		gap: 3rem;
+		gap: 4rem;
+
 		${maxQuery('md')} {
 			gap: 2rem;
 			display: none;
