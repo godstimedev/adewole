@@ -1,5 +1,5 @@
 export const APP_ROUTES = {
 	home: '/',
-	login: '/login',
+	descinder: '/descinder-app',
 	playground: '/playground',
 };

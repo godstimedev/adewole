@@ -7,9 +7,9 @@ const ApplyLayout = () => {
 		<Container>
 			<Navbar />
 
-			<section>
+			<main>
 				<Outlet />
-			</section>
+			</main>
 		</Container>
 	);
 };

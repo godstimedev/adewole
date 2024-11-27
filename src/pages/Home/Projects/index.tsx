@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { ProjectCard } from '../../../components';
 import { projectsData } from '../../../constants';
 import { Container } from './styles';
@@ -9,14 +10,15 @@ const Projects = () => {
 
 			<div className="projects">
 				{projectsData.map((project) => (
-					<ProjectCard
-						key={project.id}
-						title={project.title}
-						subTitle={project.subTitle}
-						logo={project.logo}
-						tags={project.tags}
-						img={project.img}
-					/>
+					<Link to={project.link} key={project.id}>
+						<ProjectCard
+							title={project.title}
+							subTitle={project.subTitle}
+							logo={project.logo}
+							tags={project.tags}
+							img={project.img}
+						/>
+					</Link>
 				))}
 			</div>
 		</Container>

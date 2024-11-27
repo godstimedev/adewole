@@ -8,6 +8,7 @@ import {
 	InterswitchLogo,
 	InterswitchPreview,
 } from '../assets/images';
+import { APP_ROUTES } from './routes';
 
 export const projectsData = [
 	{
@@ -17,6 +18,7 @@ export const projectsData = [
 		logo: DescinderLogo,
 		tags: ['Strategy', 'Brand Identity', 'Creative Direction', 'Digital Design'],
 		img: DescinderPreview,
+		link: APP_ROUTES.descinder,
 	},
 	{
 		id: 2,
@@ -25,6 +27,7 @@ export const projectsData = [
 		logo: Dot,
 		tags: ['Strategy', 'Brand Identity', 'Creative Direction', 'Digital Design'],
 		img: DotPreview,
+		link: APP_ROUTES.descinder,
 	},
 	{
 		id: 3,
@@ -33,6 +36,7 @@ export const projectsData = [
 		logo: InterswitchLogo,
 		tags: ['Strategy', 'Brand Identity', 'Creative Direction', 'Digital Design'],
 		img: InterswitchPreview,
+		link: APP_ROUTES.descinder,
 	},
 	{
 		id: 4,
@@ -41,5 +45,6 @@ export const projectsData = [
 		logo: Cyberspace,
 		tags: ['Strategy', 'Brand Identity', 'Creative Direction', 'Digital Design'],
 		img: CyberspacePreview,
+		link: APP_ROUTES.descinder,
 	},
 ];

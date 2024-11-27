@@ -1,5 +1,6 @@
 /// <reference types="vite-plugin-svgr/client" />
 
+export { default as ArrowBack } from './ArrowBack.svg?react';
 export { default as ArrowRight } from './ArrowRight.svg?react';
 export { default as Badge } from './Badge.svg?react';
 export { default as Behance } from './Behance.svg?react';
