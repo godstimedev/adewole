@@ -5,6 +5,8 @@ export { default as ArrowRight } from './ArrowRight.svg?react';
 export { default as Badge } from './Badge.svg?react';
 export { default as Behance } from './Behance.svg?react';
 export { default as File } from './File.svg?react';
+export { default as Gabriel } from './Gabriel.svg?react';
+export { default as Suliyat } from './Suliyat.svg?react';
 export { default as Instagram } from './Instagram.svg?react';
 export { default as Linkedin } from './Linkedin.svg?react';
 export { default as Logo } from './Logo.svg?react';

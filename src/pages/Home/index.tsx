@@ -1,3 +1,4 @@
+import { ScrollToTop } from '../../utilities';
 import Clients from './Clients';
 import Hero from './Hero';
 import Projects from './Projects';
@@ -11,6 +12,7 @@ const HomePage = () => {
 			<Projects />
 			<Clients />
 			<Resume />
+			<ScrollToTop />
 		</Container>
 	);
 };

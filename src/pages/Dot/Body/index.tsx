@@ -15,6 +15,7 @@ import {
 	DotPayInput,
 	DotRoles,
 } from '../../../assets/images';
+import { Gabriel, Suliyat } from '../../../assets/svgs';
 import { Container } from './styles';
 
 const Body = () => {
@@ -168,16 +169,94 @@ const Body = () => {
 				<div className="img-con">
 					<img src={DotBodyImg4} alt="Descinder app desktop view" />
 				</div>
+			</div>
 
-				{/* <div>
-					<h2> USER PERSONA</h2>
-					<p>
-						The first phase is the understanding phase, where you understand the user first, Market &
-						Business needs for the product. To understand the users, i conducted a research, interview
-						(Both Physically & Virtual) , also by using questionnaires when necessary. From the interview
-						i created personas for the users.{' '}
-					</p>
-				</div> */}
+			<div className="persona">
+				<h2> USER PERSONA</h2>
+				<p>
+					The first phase is the understanding phase, where you understand the user first, Market &
+					Business needs for the product. To understand the users, i conducted a research, interview
+					(Both Physically & Virtual) , also by using questionnaires when necessary. From the interview i
+					created personas for the users.
+				</p>
+				<div>
+					<div>
+						<div>
+							<div>
+								<Gabriel />
+								<h6>Gabriel Onasanya</h6>
+							</div>
+							<div>
+								<h6>34</h6>
+								<span>AGE</span>
+							</div>
+							<div>
+								<h6>MALE</h6>
+								<span>GENDER</span>
+							</div>
+							<div>
+								<h6>4yrs+</h6>
+								<span>EXPERIENCE</span>
+							</div>
+						</div>
+
+						<div>
+							<h6>Bio</h6>
+							<p>
+								Onasanya has been in the agency banking space for some years now. He currently has 2-3
+								terminal which he use for his daily transactions with customers. Below are his and goals he
+								sort for in other agency platforms.
+							</p>
+						</div>
+
+						<div>
+							<h6>Goals</h6>
+							<ul>
+								<li>Great rate for agent </li>
+								<li>Ability to withdraw cash as soon as it needed</li>
+								<li>Get Access to Bank loans</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div>
+							<div>
+								<Suliyat />
+								<h6>SULIYAT MOHAMMED</h6>
+							</div>
+							<div>
+								<h6>46</h6>
+								<span>AGE</span>
+							</div>
+							<div>
+								<h6>FEMALE</h6>
+								<span>GENDER</span>
+							</div>
+							<div>
+								<h6>7yrs+</h6>
+								<span>EXPERIENCE</span>
+							</div>
+						</div>
+
+						<div>
+							<h6>Bio</h6>
+							<p>
+								Suliyat is an agency with 7 years in her porfolio in agency banking, she have gotten her own
+								share of frustration and will looking for a better solution and system that works for her.
+								Below are her goal she is looking to attain.
+							</p>
+						</div>
+
+						<div>
+							<h6>Goals</h6>
+							<ul>
+								<li>Increase uptime to gain more customers </li>
+								<li>Get feedbacks on my concerns as soon as possible</li>
+								<li>To get a great User Experience ( Accessibility)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			{/* section 4 */}
