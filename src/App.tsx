@@ -2,7 +2,7 @@ import { ThemeProvider } from 'styled-components';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Playground, Home, PageNotFound, Descinder } from './pages';
+import { Playground, Home, PageNotFound, Descinder, Dot } from './pages';
 import { ApplyLayout } from './layout';
 import { APP_ROUTES } from './constants';
 import { GlobalStyles, theme } from './base';
@@ -26,6 +26,7 @@ function App() {
 					<Route element={<ApplyLayout />}>
 						<Route path={APP_ROUTES.home} element={<Home />} />
 						<Route path={APP_ROUTES.descinder} element={<Descinder />} />
+						<Route path={APP_ROUTES.dot} element={<Dot />} />
 					</Route>
 
 					<Route path="*" element={<PageNotFound />} />

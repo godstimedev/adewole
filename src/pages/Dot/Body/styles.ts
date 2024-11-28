@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 import { maxQuery } from '../../../utilities';
-import {
-	DescinderBodyBg1,
-	DescinderBodyBg2,
-	DescinderBodyBg3,
-	DescinderBodyBg4,
-} from '../../../assets/images';
+import { DotBodyBg1, DotBodyBg2 } from '../../../assets/images';
 
 export const Container = styled.section`
 	min-height: 100vh;
@@ -38,7 +33,7 @@ export const Container = styled.section`
 			line-height: 2.5rem;
 			letter-spacing: -0.05rem;
 			color: #1c1d20;
-			max-width: 867px;
+			max-width: 1019px;
 			text-align: center;
 			margin: auto;
 
@@ -132,7 +127,7 @@ export const Container = styled.section`
 		.img-wrapper {
 			height: 690px;
 			border-radius: 10.33px;
-			background-image: url(${DescinderBodyBg1});
+			background-image: url(${DotBodyBg1});
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -143,7 +138,7 @@ export const Container = styled.section`
 			padding: 1rem;
 
 			.img-con {
-				&:first-child {
+				&:last-child {
 					max-width: 881px;
 					height: 572.83px;
 
@@ -157,7 +152,7 @@ export const Container = styled.section`
 					}
 				}
 
-				&:last-child {
+				&:first-child {
 					max-width: 222.14px;
 					height: 481px;
 
@@ -256,6 +251,16 @@ export const Container = styled.section`
 				}
 			}
 
+			p {
+				${({ theme }) => theme.fonts.syneFont}
+				font-size: 20px;
+				font-weight: 400;
+				line-height: 22.84px;
+				text-align: center;
+				max-width: 967px;
+				margin: auto;
+			}
+
 			.img-con {
 				max-width: 965px;
 
@@ -287,7 +292,7 @@ export const Container = styled.section`
 
 		> div:last-child {
 			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+			grid-template-columns: repeat(auto-fill, minmax(585px, 1fr));
 			gap: 2.5rem;
 
 			${maxQuery('sm')} {
@@ -302,16 +307,18 @@ export const Container = styled.section`
 			> div {
 				display: flex;
 				flex-direction: column;
-				gap: 1rem;
+				gap: 4rem;
+				background-color: #fafafa;
+				padding: 4rem 2rem;
 
 				h3 {
 					${({ theme }) => theme.fonts.syneFont}
 
-					font-size: 1.665625rem;
-					font-weight: 600;
-					line-height: 1.541875rem;
-					letter-spacing: -0.051387rem;
-					text-align: left;
+					font-size: 32px;
+					font-weight: 700;
+					line-height: 38.06px;
+					letter-spacing: -0.7612912058830261px;
+					text-align: center;
 
 					${maxQuery('sm')} {
 						font-size: 1.125rem;
@@ -336,26 +343,68 @@ export const Container = styled.section`
 					}
 				}
 
-				.flow {
-					background-color: #f6f6f6;
+				.center {
+					text-align: center;
+				}
+
+				.chart {
+					width: 189.24px;
+					height: 189.24px;
+					object-fit: cover;
+					margin: auto;
+				}
+				.chart-dets {
+					width: 163.5px;
+					height: 133.1px;
+					object-fit: cover;
+					margin: 4rem auto 0;
+				}
+
+				> div {
 					display: flex;
-					align-items: center;
-					justify-content: center;
-					padding: 0.75rem 0.5rem;
+					flex-direction: column;
+					gap: 1rem;
+					align-items: left;
 
-					span {
-						${({ theme }) => theme.fonts.syneFont};
-						font-size: 1.125rem;
+					h4 {
+						${({ theme }) => theme.fonts.syneFont}
+						font-size: 24px;
 						font-weight: 700;
-						line-height: 2.379rem;
-						letter-spacing: -0.0476rem;
+						line-height: 26.52px;
 						text-align: center;
+					}
 
-						${maxQuery('sm')} {
-							font-size: 16px;
-							line-height: 24px;
-							letter-spacing: -0.7612912058830261px;
-							text-align: center;
+					> div {
+						display: flex;
+						align-items: center;
+						justify-content: start;
+						gap: 1rem;
+
+						img {
+							height: 60px;
+							object-fit: cover;
+						}
+					}
+
+					ul {
+						padding-left: 2rem;
+						padding-right: 5rem;
+
+						${maxQuery('md')} {
+							padding-right: 0;
+						}
+						li {
+							${({ theme }) => theme.fonts.syneFont}
+							list-style-type: disc;
+							color: #222222;
+							font-size: 20px;
+							font-weight: 400;
+							line-height: 30px;
+
+							${maxQuery('sm')} {
+								font-size: 20px;
+								line-height: 29.4px;
+							}
 						}
 					}
 				}
@@ -366,7 +415,7 @@ export const Container = styled.section`
 	> div:nth-child(3) {
 		height: 690px;
 		border-radius: 10.33px;
-		background-image: url(${DescinderBodyBg2});
+		background-image: url(${DotBodyBg2});
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -377,7 +426,7 @@ export const Container = styled.section`
 		padding: 1rem;
 
 		.img-con {
-			&:last-child {
+			&:first-child {
 				max-width: 881px;
 				height: 572.83px;
 
@@ -391,7 +440,7 @@ export const Container = styled.section`
 				}
 			}
 
-			&:first-child {
+			&:last-child {
 				max-width: 222.14px;
 				height: 481px;
 
@@ -478,10 +527,26 @@ export const Container = styled.section`
 				line-height: 2.37875rem;
 				letter-spacing: -0.04758rem;
 				text-align: center;
+				text-transform: uppercase;
 
 				${maxQuery('sm')} {
 					font-size: 28px;
 					line-height: 28px;
+					letter-spacing: -0.7612912058830261px;
+					text-align: center;
+				}
+			}
+
+			h3 {
+				${({ theme }) => theme.fonts.syneFont}
+				font-size: 28px;
+				font-weight: 700;
+				line-height: 22.84px;
+				text-align: center;
+
+				${maxQuery('sm')} {
+					font-size: 20px;
+					line-height: 20px;
 					letter-spacing: -0.7612912058830261px;
 					text-align: center;
 				}
@@ -496,6 +561,12 @@ export const Container = styled.section`
 				margin: auto;
 			}
 
+			> div {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+			}
+
 			> .img-con {
 				max-width: 1179px;
 				height: 749px;
@@ -507,28 +578,28 @@ export const Container = styled.section`
 					object-fit: cover;
 				}
 			}
-		}
 
-		.bg {
-			height: 690px;
-			background-image: url(${DescinderBodyBg3});
-			background-position: center;
-			background-size: cover;
-			background-repeat: no-repeat;
+			.design-component {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+				gap: 2rem;
 
-			${maxQuery('lg')} {
-				display: none;
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
 			}
 		}
-		.bg-2 {
-			height: 690px;
-			background-image: url(${DescinderBodyBg4});
-			background-position: center;
-			background-size: cover;
-			background-repeat: no-repeat;
+		.dot-pay {
+			max-width: 460.25px;
+			height: 302px;
+			margin: auto;
 
-			${maxQuery('lg')} {
-				display: none;
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
 			}
 		}
 	}

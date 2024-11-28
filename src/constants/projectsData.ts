@@ -27,7 +27,7 @@ export const projectsData = [
 		logo: Dot,
 		tags: ['Strategy', 'Brand Identity', 'Creative Direction', 'Digital Design'],
 		img: DotPreview,
-		link: APP_ROUTES.descinder,
+		link: APP_ROUTES.dot,
 	},
 	{
 		id: 3,

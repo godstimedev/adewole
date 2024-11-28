@@ -3,8 +3,10 @@ import {
 	DescinderBodyImg2,
 	DescinderBodyImg3,
 	DescinderBodyImg4,
+	DescinderBodyImg5,
 	DescinderFlowDiagram,
 	DescinderLogoConcept,
+	DescinderLogoConceptMobile,
 	DescinderSiteMapping,
 	DesignManagementProcess,
 	DesignManagementProcessMobile,
@@ -151,6 +153,18 @@ const Body = () => {
 				</div>
 			</div>
 
+			<div className="logo-concept-mobile">
+				<h2> LOGO CONCEPTUALISATION</h2>
+				<p>
+					The first phase is the understanding phase, where you understand the user first, Market &
+					Business needs for the product. To understand the users, i conducted a research, interview
+					(Both Physically & Virtual) , also by using questionnaires when necessary. From the interview i
+					created personas for the users.{' '}
+				</p>
+				<div className="img-con">
+					<img src={DescinderLogoConceptMobile} alt="Descinder app logo conceptualisation" />
+				</div>
+			</div>
 			{/* section 4 */}
 			<div>
 				<div>
@@ -170,10 +184,32 @@ const Body = () => {
 				<div>
 					<h2> LOGO CONCEPTUALISATION</h2>
 
+					<p>
+						The first phase is the understanding phase, where you understand the user first, Market &
+						Business needs for the product. To understand the users, i conducted a research, interview
+						(Both Physically & Virtual) , also by using questionnaires when necessary. From the interview
+						i created personas for the users.{' '}
+					</p>
+
 					<div className="img-con">
 						<img src={DescinderLogoConcept} alt="Descinder app logo conceptualisation" />
 					</div>
 				</div>
+				<div className="bg"></div>
+				<div>
+					<h2> MOBILE RESPONSIVENESS</h2>
+
+					<p>
+						The first phase is the understanding phase, where you understand the user first, Market &
+						Business needs for the product. To understand the users, i conducted a research, interview
+						(Both Physically & Virtual) , also by using questionnaires when necessary. From the interview
+						i created personas for the users.{' '}
+					</p>
+					<div className="img-con">
+						<img src={DescinderBodyImg5} alt="Descinder app mobile responsiveness" />
+					</div>
+				</div>
+				<div className="bg-2"></div>
 			</div>
 		</Container>
 	);

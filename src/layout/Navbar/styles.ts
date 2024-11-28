@@ -7,7 +7,7 @@ type StyledPropType = {
 
 export const Container = styled.header<StyledPropType>`
 	background: transparent;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
