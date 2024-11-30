@@ -36,7 +36,7 @@ export const projectsData = [
 		logo: InterswitchLogo,
 		tags: ['Strategy', 'Brand Identity', 'Creative Direction', 'Digital Design'],
 		img: InterswitchPreview,
-		link: APP_ROUTES.descinder,
+		link: APP_ROUTES.openMarket,
 	},
 	{
 		id: 4,

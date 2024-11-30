@@ -13,8 +13,8 @@ const GlobalStyles = createGlobalStyle`
    }
    body {
       ${({ theme }) => theme.fonts.kanitFont};
-      /* background-color: ${({ theme }) => theme.colors.black}; */
-      background-color: transparent;
+      background-color: ${({ theme }) => theme.colors.black};
+      /* background-color: transparent; */
       
       color: ${({ theme }) => theme.colors.white};
 		font-size: 1rem;

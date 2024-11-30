@@ -2,11 +2,16 @@ import { Link } from 'react-router-dom';
 import { Alldot } from '../../../assets/images';
 import { Badge, Behance, Instagram, Linkedin } from '../../../assets/svgs';
 import { Container } from './styles';
+import { motion } from 'motion/react';
 
 const Hero = () => {
 	return (
 		<Container>
-			<div>
+			<motion.div
+				initial={{ opacity: 0, y: 100 }}
+				animate={{ opacity: 1, y: 0 }}
+				transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+			>
 				<div>
 					<div>
 						<h6>DIGITAL UX | product Designer</h6>
@@ -43,16 +48,20 @@ const Hero = () => {
 						<Behance />
 					</Link>
 				</div>
-			</div>
+			</motion.div>
 
-			<div>
+			<motion.div
+				initial={{ opacity: 0, y: -100 }}
+				animate={{ opacity: 1, y: 0 }}
+				transition={{ duration: 1, ease: 'easeOut', delay: 0.4 }}
+			>
 				<div>
 					<img src={Alldot} alt="Adewole" />
 				</div>
 				<span>
 					<Badge />
 				</span>
-			</div>
+			</motion.div>
 		</Container>
 	);
 };

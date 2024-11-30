@@ -178,6 +178,11 @@ export const Container = styled.section`
 
 			> svg {
 				animation: ${rotate} 10s infinite linear;
+				animation-play-state: running;
+
+				&:hover {
+					animation-play-state: paused; /* Pauses the scroll on hover */
+				}
 			}
 		}
 	}
