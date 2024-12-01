@@ -2,14 +2,17 @@ import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { ArrowBack, File, Logo, MenuIcon, NavClose } from '../../assets/svgs';
 import { Button } from '../../ui';
 import { Container } from './styles';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { APP_ROUTES } from '../../constants';
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const navigate = useNavigate();
 	const location = useLocation();
 
-	console.log(location.pathname);
+	useEffect(() => {
+		setIsOpen(false);
+	}, [location.hash, location.pathname, setIsOpen]);
 
 	return (
 		<Container $location={!location.pathname.endsWith('/') ? 'other' : 'default'}>
@@ -24,11 +27,11 @@ const Navbar = () => {
 
 				<ul>
 					<li>
-						<NavLink to={'#education'}>Education</NavLink>{' '}
+						<NavLink to={`${APP_ROUTES.home}#education`}>Education</NavLink>{' '}
 					</li>
 					<li>
 						{' '}
-						<NavLink to={'#case-studies'}>Case studies</NavLink>
+						<NavLink to={`${APP_ROUTES.home}#case-studies`}>Case studies</NavLink>
 					</li>
 					{/* <a href="/cv.pdf" download="Adewole_CV.pdf"> */}
 					<Button>
@@ -55,11 +58,11 @@ const Navbar = () => {
 
 						<ul>
 							<li>
-								<NavLink to={'#education'}>Education</NavLink>{' '}
+								<NavLink to={`${APP_ROUTES.home}#education`}>Education</NavLink>{' '}
 							</li>
 							<li>
 								{' '}
-								<NavLink to={'#case-studies'}>Case studies</NavLink>
+								<NavLink to={`${APP_ROUTES.home}#case-studies`}>Case studies</NavLink>
 							</li>
 							{/* <a href="/cv.pdf" download="Adewole_CV.pdf"> */}
 							<Button>
