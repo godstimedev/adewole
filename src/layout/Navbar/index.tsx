@@ -55,16 +55,18 @@ const Navbar = () => {
 
 						<ul>
 							<li>
-								<NavLink to={'/'}>Education</NavLink>{' '}
+								<NavLink to={'#education'}>Education</NavLink>{' '}
 							</li>
 							<li>
 								{' '}
-								<NavLink to={'/'}>Case studies</NavLink>
+								<NavLink to={'#case-studies'}>Case studies</NavLink>
 							</li>
+							{/* <a href="/cv.pdf" download="Adewole_CV.pdf"> */}
 							<Button>
 								<File />
 								Download CV
 							</Button>
+							{/* </a> */}
 						</ul>
 					</div>
 				</div>
