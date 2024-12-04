@@ -8,6 +8,9 @@ export const Container = styled.div`
 	gap: 4rem;
 	padding: 0 4rem 4rem;
 	margin-top: 8rem;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
 
 	${maxQuery('lg')} {
 		padding: 0 3rem;

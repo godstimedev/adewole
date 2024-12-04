@@ -24,8 +24,8 @@ export const Container = styled.section`
 
 		.img-con {
 			&:first-child {
-				max-width: 881px;
-				height: 572.83px;
+				max-width: 847px;
+				height: 602.31px;
 
 				img {
 					width: 100%;
@@ -38,8 +38,8 @@ export const Container = styled.section`
 			}
 
 			&:last-child {
-				max-width: 222.14px;
-				height: 481px;
+				max-width: 190px;
+				height: 500px;
 
 				img {
 					width: 100%;
