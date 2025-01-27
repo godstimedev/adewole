@@ -1,9 +1,16 @@
 // Export all images from here
 export { default as Alldot } from './Alldot.png';
+export { default as BoadmanPreview } from './BoadmanPreview.png';
+export { default as BoadmanLogo } from './BoadmanLogo.png';
 export { default as Cyberspace } from './CyberspaceLogo.png';
-export { default as ClientImg1 } from './ClientImg1.png';
-export { default as ClientImg2 } from './ClientImg2.png';
-export { default as ClientImg3 } from './ClientImg3.png';
+export { default as Cashtella } from './Cashtella.png';
+export { default as CashtellaLogo } from './CashtellaLogo.png';
+export { default as Herconomy } from './Herconomy.png';
+export { default as HerconomyLogo } from './HerconomyLogo.png';
+export { default as Shipsail } from './Shipsail.png';
+export { default as ShipsailLogo } from './ShipsailLogo.png';
+export { default as QuicktellerLogo } from './QuicktellerLogo.png';
+export { default as DotPayLogo } from './DotPayLogo.png';
 export { default as CyberspacePreview } from './CyberspacePreview.png';
 export { default as DescinderBodyBg1 } from './DescinderBodyBg1.png';
 export { default as DescinderBodyBg2 } from './DescinderBodyBg2.png';

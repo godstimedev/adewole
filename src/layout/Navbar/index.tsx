@@ -26,13 +26,12 @@ const Navbar = () => {
 				</NavLink>
 
 				<ul>
-					<li>
-						<NavLink to={`${APP_ROUTES.home}#education`}>Education</NavLink>{' '}
-					</li>
-					<li>
-						{' '}
-						<NavLink to={`${APP_ROUTES.home}#case-studies`}>Case studies</NavLink>
-					</li>
+					{navItems.map((item) => (
+						<li key={item.name}>
+							{' '}
+							<NavLink to={item.link}>{item.name}</NavLink>
+						</li>
+					))}
 					{/* <a href="/cv.pdf" download="Adewole_CV.pdf"> */}
 					<Button>
 						<File />
@@ -57,13 +56,13 @@ const Navbar = () => {
 						</div>
 
 						<ul>
-							<li>
-								<NavLink to={`${APP_ROUTES.home}#education`}>Education</NavLink>{' '}
-							</li>
-							<li>
-								{' '}
-								<NavLink to={`${APP_ROUTES.home}#case-studies`}>Case studies</NavLink>
-							</li>
+							{navItems.map((item) => (
+								<li key={item.name}>
+									{' '}
+									<NavLink to={item.link}>{item.name}</NavLink>
+								</li>
+							))}
+
 							{/* <a href="/cv.pdf" download="Adewole_CV.pdf"> */}
 							<Button>
 								<File />
@@ -79,3 +78,22 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+const navItems = [
+	{
+		name: 'Education',
+		link: `${APP_ROUTES.home}#education`,
+	},
+	{
+		name: 'Experiences',
+		link: `${APP_ROUTES.home}#education`,
+	},
+	{
+		name: 'Featured Clients',
+		link: `${APP_ROUTES.home}#clients`,
+	},
+	{
+		name: 'Case studies',
+		link: `${APP_ROUTES.home}#case-studies`,
+	},
+];

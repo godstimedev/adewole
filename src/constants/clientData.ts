@@ -1,34 +1,33 @@
-import { ClientImg1, ClientImg2, ClientImg3 } from '../assets/images';
+import { Cashtella, Herconomy, Shipsail } from '../assets/images';
 
 export const clientData = [
 	{
-		img: ClientImg1,
+		img: Cashtella,
 		job: {
-			title: 'UX designer',
+			title: 'Lead UX designer',
 			mode: 'Contract',
 		},
-		company: 'CASHTTELLA',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi ut labore et dolore.',
+		company: 'Cashtella',
+		description: 'Enabling businesses to perform timely local and cross-border payments',
 	},
 	{
-		img: ClientImg2,
+		img: Herconomy,
 		job: {
-			title: 'UX designer',
+			title: 'Product designer',
 			mode: 'Contract',
 		},
 		company: 'HERCONomy',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi ut labore et dolore.',
+			"Herconomy, Nigeria's first women-focused fintech, empowers female entrepreneurs with finance, growth, and community.",
 	},
 	{
-		img: ClientImg3,
+		img: Shipsail,
 		job: {
 			title: 'UX designer',
 			mode: 'Contract',
 		},
-		company: 'PAyonus',
+		company: 'Shipsail',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi ut labore et dolore.',
+			'Shipsail assesses your marriage readiness with a personalized score, helping us match you with the most compatible partner for a lasting relationship.',
 	},
 ];

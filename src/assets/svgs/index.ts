@@ -15,6 +15,8 @@ export { default as Linkedin } from './Linkedin.svg?react';
 export { default as Logo } from './Logo.svg?react';
 export { default as MenuIcon } from './MenuIcon.svg?react';
 export { default as NavClose } from './NavClose.svg?react';
+export { default as NextIcon } from './NextIcon.svg?react';
+export { default as PrevIcon } from './PrevIcon.svg?react';
 export { default as NotificationInfo } from './NotificationInfo.svg?react';
 export { default as No1 } from './No1.svg?react';
 export { default as No2 } from './No2.svg?react';

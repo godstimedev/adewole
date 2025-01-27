@@ -1,6 +1,6 @@
 import {
+	BoadmanPreview,
 	Cyberspace,
-	CyberspacePreview,
 	DescinderLogo,
 	DescinderPreview,
 	Dot,
@@ -32,7 +32,7 @@ export const projectsData = [
 	{
 		id: 3,
 		title: 'Interswitch ',
-		subTitle: 'Payment Gateway ',
+		subTitle: 'Open Market  - Marketplace ',
 		logo: InterswitchLogo,
 		tags: ['Strategy', 'Brand Identity', 'Creative Direction', 'Digital Design'],
 		img: InterswitchPreview,
@@ -40,11 +40,11 @@ export const projectsData = [
 	},
 	{
 		id: 4,
-		title: 'Cyberspace ',
-		subTitle: 'IT consulting',
+		title: 'Boadman',
+		subTitle: 'Gaming Platform',
 		logo: Cyberspace,
 		tags: ['Strategy', 'Brand Identity', 'Creative Direction', 'Digital Design'],
-		img: CyberspacePreview,
-		link: APP_ROUTES.descinder,
+		img: BoadmanPreview,
+		link: APP_ROUTES.boadman,
 	},
 ];

@@ -1,3 +1,4 @@
+import { PrevNext } from '../../components';
 import { ScrollToTop } from '../../utilities';
 import Body from './Body';
 import Hero from './Hero';
@@ -8,6 +9,7 @@ const OpenMarket = () => {
 		<Container>
 			<Hero />
 			<Body />
+			<PrevNext prev={null} next={2} />
 			<ScrollToTop />
 		</Container>
 	);

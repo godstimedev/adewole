@@ -49,7 +49,7 @@ export const Container = styled.header<StyledPropType>`
 			align-items: center;
 			gap: 2rem;
 
-			${maxQuery('md')} {
+			${maxQuery('lg')} {
 				display: none;
 			}
 
@@ -73,7 +73,7 @@ export const Container = styled.header<StyledPropType>`
 				.menu {
 					display: none;
 
-					${maxQuery('md')} {
+					${maxQuery('lg')} {
 						display: block;
 						background-color: ${({ theme }) => theme.colors.white};
 						padding: 0.5rem;

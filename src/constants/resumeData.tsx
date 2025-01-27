@@ -54,14 +54,14 @@ export const educationData = [
 
 export const experienceData = [
 	{
-		title: 'Design Head & Manager',
+		title: 'Descinder Ltd',
 		content: (
 			<div className="content">
 				<div>
-					<h5>Soft Tech Inc.</h5>
+					<h5>Head of Design</h5>
 
 					<span>
-						2020 - <span className="present">Presents</span>
+						2022 - <span className="present">Presents</span>
 					</span>
 				</div>
 
@@ -73,11 +73,11 @@ export const experienceData = [
 		),
 	},
 	{
-		title: 'UI / UX Specialist',
+		title: 'Boadman',
 		content: (
 			<div className="content">
 				<div>
-					<h5>IT Project Management</h5>
+					<h5>Head of Design</h5>
 
 					<span>2021 -2023</span>
 				</div>
@@ -90,11 +90,11 @@ export const experienceData = [
 		),
 	},
 	{
-		title: 'Plugins Developer',
+		title: 'Interswitch Group',
 		content: (
 			<div className="content">
 				<div>
-					<h5>IT Project Management</h5>
+					<h5>Head of Design</h5>
 
 					<span>2021 -2023</span>
 				</div>

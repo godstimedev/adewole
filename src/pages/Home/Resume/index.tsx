@@ -5,7 +5,7 @@ import { Container } from './styles';
 const Resume = () => {
 	return (
 		<Container id="education">
-			<h2 className="display2">Resume</h2>
+			<h2 className="display2">Education & Experience</h2>
 
 			<div className="resume">
 				<div>

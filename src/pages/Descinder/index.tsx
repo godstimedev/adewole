@@ -1,3 +1,4 @@
+import { PrevNext } from '../../components';
 import { ScrollToTop } from '../../utilities';
 import Body from './Body';
 import Hero from './Hero';
@@ -8,6 +9,7 @@ const Descinder = () => {
 		<Container>
 			<Hero />
 			<Body />
+			<PrevNext prev={null} next={0} />
 			<ScrollToTop />
 		</Container>
 	);

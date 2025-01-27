@@ -6,6 +6,7 @@ export const Container = styled.section`
 	display: flex;
 	flex-direction: column;
 	gap: 3rem;
+	scroll-margin-top: 2rem;
 
 	${maxQuery('md')} {
 		gap: 2rem;

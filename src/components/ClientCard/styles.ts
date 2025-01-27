@@ -96,6 +96,8 @@ export const Container = styled.div`
 		justify-content: end;
 		margin-left: auto;
 		gap: 0.5rem;
+		margin-top: auto;
+		text-decoration: underline;
 
 		font-size: 0.938125rem;
 		font-weight: 700;
@@ -112,7 +114,6 @@ export const Container = styled.div`
 
 		&:hover {
 			color: ${({ theme }) => theme.colors.primary700};
-			text-decoration: underline;
 
 			transition: all 0.1s;
 		}

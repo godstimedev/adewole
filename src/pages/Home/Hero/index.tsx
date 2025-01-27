@@ -15,7 +15,7 @@ const Hero = () => {
 				<div>
 					<div>
 						<h6>DIGITAL UX | product Designer</h6>
-						<span>portfolio 2017 - 2023</span>
+						<span>portfolio 2017 - 2025</span>
 					</div>
 					<div>
 						<h6>Available For:</h6>
@@ -31,7 +31,7 @@ const Hero = () => {
 				</h1>
 
 				<p>
-					With seven years of experience as a product designer, I've conducted in-depth research to
+					With over seven years of experience as a product designer, I've conducted in-depth research to
 					uncover user pain points and create scalable, user-centered products.
 				</p>
 
