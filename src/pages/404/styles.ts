@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { maxQuery } from '../../utilities';
 
 export const Container = styled.div`
 	height: 100vh;
@@ -14,6 +15,10 @@ export const Container = styled.div`
 		gap: 0.5rem;
 		font-size: 2rem;
 		${({ theme }) => theme.fonts.syneFont}
+
+		${maxQuery('sm')} {
+			flex-direction: column;
+		}
 
 		span {
 			color: ${({ theme }) => theme.colors.primary500};

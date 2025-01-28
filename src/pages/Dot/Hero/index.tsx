@@ -6,10 +6,10 @@ const Hero = () => {
 		<Container>
 			<div>
 				<div className="img-con">
-					<img src={DotHeroImg1} alt="Descinder app desktop view" />
+					<img src={DotHeroImg1} alt="Dot.Ai app desktop view" />
 				</div>
 				<div className="img-con">
-					<img src={DotHeroImg2} alt="Descinder app mobile view" />
+					<img src={DotHeroImg2} alt="Dot.Ai app mobile view" />
 				</div>
 			</div>
 

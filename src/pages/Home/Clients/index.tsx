@@ -15,6 +15,7 @@ const Clients = () => {
 						job={client.job}
 						company={client.company}
 						description={client.description}
+						link={client.link}
 					/>
 				))}
 			</div>

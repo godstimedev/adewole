@@ -47,6 +47,10 @@ export const Container = styled.div<StyledProps>`
 			line-height: 120%;
 			text-align: center;
 			text-transform: uppercase;
+
+			${maxQuery('sm')} {
+				font-size: 1rem;
+			}
 		}
 
 		img {
@@ -62,6 +66,10 @@ export const Container = styled.div<StyledProps>`
 			font-weight: 300;
 			line-height: 120%;
 			text-align: center;
+
+			${maxQuery('sm')} {
+				font-size: 1rem;
+			}
 		}
 	}
 `;

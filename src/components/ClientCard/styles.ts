@@ -88,34 +88,37 @@ export const Container = styled.div`
 		}
 	}
 
-	button {
-		${({ theme }) => theme.fonts.syneFont};
-
-		display: flex;
-		align-items: center;
-		justify-content: end;
+	a {
 		margin-left: auto;
-		gap: 0.5rem;
 		margin-top: auto;
-		text-decoration: underline;
 
-		font-size: 0.938125rem;
-		font-weight: 700;
-		line-height: 1.29rem;
+		button {
+			${({ theme }) => theme.fonts.syneFont};
 
-		${maxQuery('md')} {
-			margin: auto;
-		}
+			display: flex;
+			align-items: center;
+			justify-content: end;
+			gap: 0.5rem;
+			text-decoration: underline;
 
-		${maxQuery('sm')} {
-			font-size: 0.788125rem;
-			line-height: 1.08375rem;
-		}
+			font-size: 0.938125rem;
+			font-weight: 700;
+			line-height: 1.29rem;
 
-		&:hover {
-			color: ${({ theme }) => theme.colors.primary700};
+			${maxQuery('md')} {
+				margin: auto;
+			}
 
-			transition: all 0.1s;
+			${maxQuery('sm')} {
+				font-size: 0.788125rem;
+				line-height: 1.08375rem;
+			}
+
+			&:hover {
+				color: ${({ theme }) => theme.colors.primary700};
+
+				transition: all 0.1s;
+			}
 		}
 	}
 `;
