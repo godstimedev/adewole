@@ -1,21 +1,20 @@
-import // BoadmanBodyImg1,
-// BoadmanBodyImg10,
-// BoadmanBodyImg11,
-// BoadmanBodyImg12,
-// BoadmanBodyImg13,
-// BoadmanBodyImg14,
-// BoadmanBodyImg15,
-// BoadmanBodyImg16,
-// BoadmanBodyImg17,
-// BoadmanBodyImg2,
-// BoadmanBodyImg3,
-// BoadmanBodyImg4,
-// BoadmanBodyImg5,
-// BoadmanBodyImg6,
-// BoadmanBodyImg7,
-// BoadmanBodyImg8,
-// BoadmanBodyImg9,
-'../../../assets/images';
+import {
+	CashtellaBodyImg1,
+	CashtellaBodyImg10,
+	CashtellaBodyImg11,
+	CashtellaBodyImg12,
+	CashtellaBodyImg13,
+	CashtellaBodyImg14,
+	CashtellaBodyImg15,
+	CashtellaBodyImg2,
+	CashtellaBodyImg3,
+	CashtellaBodyImg4,
+	CashtellaBodyImg5,
+	CashtellaBodyImg6,
+	CashtellaBodyImg7,
+	CashtellaBodyImg8,
+	CashtellaBodyImg9,
+} from '../../../assets/images';
 import { Container } from './styles';
 
 const Body = () => {
@@ -47,144 +46,107 @@ const Body = () => {
 						</div>
 					</div>
 
-					{/* <div className="img-wrapper">
-						<div className="img-con">
-							<img src={BoadmanBodyImg1} alt="Boadman desktop view" />
+					<div className="img-wrapper">
+						<div className="img-con-1">
+							<img src={CashtellaBodyImg1} alt="Cashtella mobile view" />
 						</div>
-						<div className="img-con">
-							<img src={BoadmanBodyImg2} alt="Boadman mobile view" />
+						<div className="img-con-2">
+							<img src={CashtellaBodyImg2} alt="Cashtella mobile view" />
 						</div>
-					</div> */}
+						<div className="img-con-1">
+							<img src={CashtellaBodyImg3} alt="Cashtella mobile view" />
+						</div>
+					</div>
 				</div>
 
 				{/* section 2 */}
-				{/* <div>
+				<div>
 					<div>
-						<h2>Landing Page (Web)</h2>
+						<h2>TRANSFER DESIGNS</h2>
 
 						<p>
-							To address Descinder's challenge of uniting businesses and early-career individuals on a
-							user-friendly platform, the best strategy is a comprehensive UX design. Prioritize a seamless
-							interface, ensuring accessibility and ease of use for businesses, interns, and fresh
-							graduates.
+							Easily manage your finances with our versatile transfer options. Send money securely to
+							accounts at other banks, transfer funds conveniently using just a recipient's phone number or
+							email address, or complete reliable international transfers to destinations overseas.
 						</p>
 					</div>
 
 					<div>
 						<div className="img-wrapper">
+							<div className="img-con-1">
+								<img src={CashtellaBodyImg4} alt="Cashtella" />
+							</div>
 							<div className="img-con-2">
-								<img src={BoadmanBodyImg3} alt="Boadman" />
+								<img src={CashtellaBodyImg5} alt="Cashtella" />
 							</div>
 							<div className="img-con-1">
-								<img src={BoadmanBodyImg4} alt="Boadman" />
+								<img src={CashtellaBodyImg6} alt="Cashtella" />
 							</div>
 							<div className="img-con-2">
-								<img src={BoadmanBodyImg5} alt="Boadman" />
+								<img src={CashtellaBodyImg7} alt="Cashtella" />
 							</div>
 						</div>
 
 						<div className="img-wrapper-mobile">
 							<div className="img-con">
-								<img src={BoadmanBodyImg6} alt="Boadman" />
-							</div>
-							<div className="img-con">
-								<img src={BoadmanBodyImg7} alt="Boadman" />
+								<img src={CashtellaBodyImg4} alt="Cashtella" />
 							</div>
 						</div>
 					</div>
-				</div> */}
+				</div>
 
 				{/* section 3 */}
-				{/* <div>
-					<div>
-						<h2>Gaming Modules (Mobile Responsiveness)</h2>
-
-						<p>
-							To address Descinder's challenge of uniting businesses and early-career individuals on a
-							user-friendly platform, the best strategy is a comprehensive UX design. Prioritize a seamless
-							interface, ensuring accessibility and ease of use for businesses, interns, and fresh
-							graduates.
-						</p>
-					</div>
-
-					<div>
-						<div className="img-wrapper">
-							<div className="img-con-1">
-								<img src={BoadmanBodyImg8} alt="Boadman" />
-							</div>
-							<div className="img-con-2">
-								<img src={BoadmanBodyImg9} alt="Boadman" />
-							</div>
-							<div className="img-con-1">
-								<img src={BoadmanBodyImg10} alt="Boadman" />
-							</div>
-							<div className="img-con-2">
-								<img src={BoadmanBodyImg11} alt="Boadman" />
-							</div>
+				<div>
+					<div className="img-wrapper">
+						<div className="img-con-1">
+							<img src={CashtellaBodyImg8} alt="Cashtella mobile view" />
 						</div>
-
-						<div className="img-wrapper-mobile">
-							<div className="img-con">
-								<img src={BoadmanBodyImg8} alt="Boadman" />
-							</div>
-							<div className="img-con">
-								<img src={BoadmanBodyImg10} alt="Boadman" />
-							</div>
+						<div className="img-con-2">
+							<img src={CashtellaBodyImg9} alt="Cashtella mobile view" />
+						</div>
+						<div className="img-con-1 non">
+							<img src={CashtellaBodyImg10} alt="Cashtella mobile view" />
+						</div>
+						<div className="img-con-2">
+							<img src={CashtellaBodyImg11} alt="Cashtella mobile view" />
 						</div>
 					</div>
-				</div> */}
+				</div>
 
 				{/* section 4 */}
-				{/* <div>
+				<div>
 					<div>
-						<h2>Gaming Overview</h2>
+						<h2>REMMITANCE</h2>
 
 						<p>
-							To address Descinder's challenge of uniting businesses and early-career individuals on a
-							user-friendly platform, the best strategy is a comprehensive UX design. Prioritize a seamless
-							interface, ensuring accessibility and ease of use for businesses, interns, and fresh
-							graduates.
+							We offer secure and efficient remittance services, enabling fast and reliable transfers to
+							other companies worldwide. Simplify your business payments with ease and confidence.
 						</p>
 					</div>
 
 					<div>
 						<div className="img-wrapper">
-							<div>
-								<img src={BoadmanBodyImg12} alt="Boadman" />
+							<div className="img-con-1">
+								<img src={CashtellaBodyImg12} alt="Cashtella" />
 							</div>
-							<div>
-								<div className="img-con-1">
-									<img src={BoadmanBodyImg13} alt="Boadman" />
-								</div>
-								<div className="img-con-2">
-									<img src={BoadmanBodyImg14} alt="Boadman" />
-								</div>
-								<div className="img-con-1">
-									<img src={BoadmanBodyImg15} alt="Boadman" />
-								</div>
-								<div className="img-con-2">
-									<img src={BoadmanBodyImg16} alt="Boadman" />
-								</div>
+							<div className="img-con-2">
+								<img src={CashtellaBodyImg13} alt="Cashtella" />
+							</div>
+							<div className="img-con-1">
+								<img src={CashtellaBodyImg14} alt="Cashtella" />
+							</div>
+							<div className="img-con-2">
+								<img src={CashtellaBodyImg15} alt="Cashtella" />
 							</div>
 						</div>
 
 						<div className="img-wrapper-mobile">
 							<div className="img-con">
-								<img src={BoadmanBodyImg13} alt="Boadman" />
-							</div>
-							<div className="img-con">
-								<img src={BoadmanBodyImg14} alt="Boadman" />
+								<img src={CashtellaBodyImg12} alt="Cashtella" />
 							</div>
 						</div>
 					</div>
-				</div> */}
-
-				{/* section 5 */}
-				{/* <div>
-					<div className="img-con">
-						<img src={BoadmanBodyImg17} alt="Boadman" />
-					</div>
-				</div> */}
+				</div>
 			</div>
 		</Container>
 	);

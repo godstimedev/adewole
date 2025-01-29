@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { maxQuery } from '../../../utilities';
-import { CashtellaBodyBg1 } from '../../../assets/images';
+import { HerconomyBodyBg1 } from '../../../assets/images';
 
 export const Container = styled.section`
 	min-height: 100vh;
@@ -135,7 +135,7 @@ export const Container = styled.section`
 
 			.img-wrapper {
 				height: 690px;
-				background-image: url(${CashtellaBodyBg1});
+				background-image: url(${HerconomyBodyBg1});
 				background-position: center;
 				background-size: cover;
 				background-repeat: no-repeat;
@@ -145,9 +145,13 @@ export const Container = styled.section`
 				gap: 3rem;
 				padding: 1rem;
 
+				${maxQuery('lg')} {
+					height: 596px;
+				}
+
 				.img-con-1 {
-					width: 230.29px;
-					height: 498.66px;
+					width: 246.12px;
+					height: 532.94px;
 
 					${maxQuery('lg')} {
 						width: 216.13px;
@@ -169,8 +173,8 @@ export const Container = styled.section`
 				}
 
 				.img-con-2 {
-					width: 230.29px;
-					height: 498.66px;
+					width: 246.12px;
+					height: 532.94px;
 					margin-top: 6rem;
 
 					${maxQuery('lg')} {
@@ -181,7 +185,7 @@ export const Container = styled.section`
 						width: 100%;
 						height: 100%;
 						object-fit: cover;
-						border-radius: 6px 0px 0px 0px;
+						border-radius: 7px;
 					}
 				}
 			}
@@ -236,8 +240,8 @@ export const Container = styled.section`
 					}
 
 					.img-con-1 {
-						width: 262.73px;
-						height: 547.01px;
+						width: 282.17px;
+						height: 611px;
 
 						img {
 							width: 100%;
@@ -247,8 +251,8 @@ export const Container = styled.section`
 					}
 
 					.img-con-2 {
-						width: 262.73px;
-						height: 547.01px;
+						width: 282.17px;
+						height: 611px;
 						margin-top: 6rem;
 
 						img {
@@ -271,8 +275,8 @@ export const Container = styled.section`
 
 					.img-con {
 						&:first-child {
-							width: 295px;
-							height: 614.21px;
+							width: 282.17px;
+							height: 611px;
 
 							img {
 								width: 100%;
@@ -297,61 +301,6 @@ export const Container = styled.section`
 		}
 
 		> div:nth-child(3) {
-			.img-wrapper {
-				height: 690px;
-				background-image: url(${CashtellaBodyBg1});
-				background-position: center;
-				background-size: cover;
-				background-repeat: no-repeat;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				gap: 3rem;
-				padding: 1rem;
-
-				.img-con-1 {
-					width: 230.29px;
-					height: 498.66px;
-
-					${maxQuery('lg')} {
-						width: 216.13px;
-						height: 468px;
-					}
-
-					img {
-						width: 100%;
-						height: 100%;
-						object-fit: cover;
-						border-radius: 6px 0px 0px 0px;
-					}
-
-					&.non {
-						${maxQuery('lg')} {
-							display: none !important;
-						}
-					}
-				}
-
-				.img-con-2 {
-					width: 230.29px;
-					height: 498.66px;
-					margin-top: 6rem;
-
-					${maxQuery('lg')} {
-						display: none;
-					}
-
-					img {
-						width: 100%;
-						height: 100%;
-						object-fit: cover;
-						border-radius: 6px 0px 0px 0px;
-					}
-				}
-			}
-		}
-
-		> div:nth-child(4) {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -389,74 +338,56 @@ export const Container = styled.section`
 				margin: auto;
 			}
 
-			> div:last-child {
-				/* position: relative; */
+			.img-wrapper {
+				height: 690px;
+				width: 100%;
+				background-image: url(${HerconomyBodyBg1});
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 1rem;
+				padding: 1rem;
 
-				.img-wrapper {
-					display: flex;
-					justify-content: space-between;
-					gap: 2rem;
+				.img-con-1 {
+					width: 213.42px;
+					height: 462.12px;
+
+					${maxQuery('lg')} {
+						width: 216.13px;
+						height: 468px;
+					}
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						border-radius: 7px 0px 0px 0px;
+					}
+
+					&.non {
+						${maxQuery('lg')} {
+							display: none !important;
+						}
+					}
+				}
+
+				.img-con-2 {
+					width: 213.42px;
+					height: 462.12px;
+					margin-top: 6rem;
 
 					${maxQuery('lg')} {
 						display: none;
 					}
 
-					.img-con-1 {
-						width: 262.73px;
-						height: 547.01px;
-
-						img {
-							width: 100%;
-							height: 100%;
-							object-fit: cover;
-						}
-					}
-
-					.img-con-2 {
-						width: 262.73px;
-						height: 547.01px;
-						margin-top: 6rem;
-
-						img {
-							width: 100%;
-							height: 100%;
-							object-fit: cover;
-						}
-					}
-				}
-
-				.img-wrapper-mobile {
-					display: none;
-
-					${maxQuery('lg')} {
-						display: flex;
-						flex-direction: column;
-						align-items: center;
-						gap: 2rem;
-					}
-
-					.img-con {
-						&:first-child {
-							width: 295px;
-							height: 614.21px;
-
-							img {
-								width: 100%;
-								height: 100%;
-								object-fit: cover;
-							}
-						}
-
-						&:last-child {
-							width: 294.89px;
-							height: 613.99px;
-
-							img {
-								width: 100%;
-								height: 100%;
-								object-fit: cover;
-							}
-						}
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						border-radius: 6px 0px 0px 0px;
 					}
 				}
 			}

@@ -11,6 +11,8 @@ import {
 	OpenMarket,
 	Boadman,
 	Cashtella,
+	Herconomy,
+	Shipsail,
 } from './pages';
 import { ApplyLayout } from './layout';
 import { APP_ROUTES } from './constants';
@@ -38,7 +40,9 @@ function App() {
 						<Route path={APP_ROUTES.boadman} element={<Boadman />} />
 						<Route path={APP_ROUTES.cashtella} element={<Cashtella />} />
 						<Route path={APP_ROUTES.dot} element={<Dot />} />
+						<Route path={APP_ROUTES.herconomy} element={<Herconomy />} />
 						<Route path={APP_ROUTES.openMarket} element={<OpenMarket />} />
+						<Route path={APP_ROUTES.shipsail} element={<Shipsail />} />
 					</Route>
 
 					<Route path="*" element={<PageNotFound />} />

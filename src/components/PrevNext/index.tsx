@@ -21,17 +21,20 @@ const PrevNext = (props: PropTypes) => {
 
 	return (
 		<Container $next={next} $prev={prev}>
-			<Link to={prev ? items[prev as number].link : '#'} className="prev">
+			<Link to={prev !== null ? items[prev as number].link : '#'} className="prev">
 				<button>
 					<PrevIcon />
 				</button>
 			</Link>
 			<div>
-				<h6>Next Design</h6>
-				<img src={items[next as number].img} alt={items[next as number].name} />
-				<p>{items[next as number].text}</p>
+				<h6>{next !== null ? 'Next Design' : 'Previous Design'}</h6>
+				<img
+					src={next !== null ? items[next as number].img : items[prev as number].img}
+					alt={next !== null ? items[next as number].name : items[prev as number].name}
+				/>
+				<p>{next !== null ? items[next as number].text : items[prev as number].text}</p>
 			</div>
-			<Link to={items[next as number].link} className="next">
+			<Link to={next !== null ? items[next as number].link : '#'} className="next">
 				<button>
 					<NextIcon />
 				</button>
