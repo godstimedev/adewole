@@ -11,43 +11,43 @@ const Hero = () => {
 	return (
 		<Container>
 			<div>
-				<motion.div
-					initial={{ opacity: 0, y: -100 }}
-					animate={{ opacity: 1, y: 0 }}
-					transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
-				>
-					<div className="img-con-1">
+				<div className="img-con-1">
+					<motion.div
+						initial={{ opacity: 0, y: -100 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+					>
 						<img src={ShipsailHeroImg1} alt="Shipsail" />
-					</div>
-				</motion.div>
-				<motion.div
-					initial={{ opacity: 0, y: 100 }}
-					animate={{ opacity: 1, y: 0 }}
-					transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
-				>
-					<div className="img-con-2">
+					</motion.div>
+				</div>
+				<div className="img-con-2">
+					<motion.div
+						initial={{ opacity: 0, y: 100 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+					>
 						<img src={ShipsailHeroImg2} alt="Shipsail" />
-					</div>
-				</motion.div>
+					</motion.div>
+				</div>
 
-				<motion.div
-					initial={{ opacity: 0, y: -100 }}
-					animate={{ opacity: 1, y: 0 }}
-					transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
-				>
-					<div className="img-con-1 ">
+				<div className="img-con-1 ">
+					<motion.div
+						initial={{ opacity: 0, y: -100 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+					>
 						<img src={ShipsailHeroImg3} alt="Shipsail" />
-					</div>
-				</motion.div>
-				<motion.div
-					initial={{ opacity: 0, y: 100 }}
-					animate={{ opacity: 1, y: 0 }}
-					transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
-				>
-					<div className="img-con-2 non">
+					</motion.div>
+				</div>
+				<div className="img-con-2 non">
+					<motion.div
+						initial={{ opacity: 0, y: 100 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+					>
 						<img src={ShipsailHeroImg4} alt="Shipsail" />
-					</div>
-				</motion.div>
+					</motion.div>
+				</div>
 			</div>
 
 			<div>

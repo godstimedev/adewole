@@ -5,22 +5,50 @@ import {
 	CashtellaHeroImg4,
 } from '../../../assets/images';
 import { Container } from './styles';
+import { motion } from 'motion/react';
 
 const Hero = () => {
 	return (
 		<Container>
 			<div>
 				<div className="img-con-1">
-					<img src={CashtellaHeroImg1} alt="Cashtella" />
+					<motion.div
+						initial={{ opacity: 0, y: -100 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+					>
+						<img src={CashtellaHeroImg1} alt="Cashtella" />
+					</motion.div>
 				</div>
+
 				<div className="img-con-2">
-					<img src={CashtellaHeroImg2} alt="Cashtella" />
+					<motion.div
+						initial={{ opacity: 0, y: 100 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+					>
+						<img src={CashtellaHeroImg2} alt="Cashtella" />
+					</motion.div>
 				</div>
+
 				<div className="img-con-1 non">
-					<img src={CashtellaHeroImg3} alt="Cashtella" />
+					<motion.div
+						initial={{ opacity: 0, y: -100 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+					>
+						<img src={CashtellaHeroImg3} alt="Cashtella" />
+					</motion.div>
 				</div>
+
 				<div className="img-con-2">
-					<img src={CashtellaHeroImg4} alt="Cashtella" />
+					<motion.div
+						initial={{ opacity: 0, y: 100 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+					>
+						<img src={CashtellaHeroImg4} alt="Cashtella" />
+					</motion.div>
 				</div>
 			</div>
 
