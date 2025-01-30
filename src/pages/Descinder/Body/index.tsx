@@ -4,6 +4,10 @@ import {
 	DescinderBodyImg3,
 	DescinderBodyImg4,
 	DescinderBodyImg5,
+	DescinderBodyImg6,
+	DescinderBodyImg7,
+	DescinderBodyImg8,
+	DescinderBodyImg9,
 	DescinderFlowDiagram,
 	DescinderLogoConcept,
 	DescinderLogoConceptMobile,
@@ -167,6 +171,35 @@ const Body = () => {
 					</div>
 				</div>
 				{/* section 4 */}
+				<div className="section-4-mobile">
+					<div className="img-con-1">
+						<img src={DescinderBodyImg6} alt="Descinder" />
+					</div>
+
+					<div>
+						<div>
+							<h2>
+								MOBILE <br /> RESPONSIVENESS
+							</h2>
+							<p>
+								The first phase is the understanding phase, where you understand the user first, Market &
+								Business needs for the product. To understand the users, i conducted a research, interview
+								(Both Physically & Virtual) , also by using questionnaires when necessary. From the
+								interview i created personas for the users.{' '}
+							</p>
+						</div>
+
+						<div className="img-con-2">
+							<img src={DescinderBodyImg7} alt="Descinder" />
+							<img src={DescinderBodyImg8} alt="Descinder" />
+						</div>
+					</div>
+
+					<div className="img-con-3">
+						<img src={DescinderBodyImg9} alt="Descinder" />
+					</div>
+				</div>
+
 				<div>
 					<div>
 						<h2> USER FLOW DIAGRAM</h2>
@@ -178,7 +211,7 @@ const Body = () => {
 					<div>
 						<h2> SITE MAPPING (SMEs & START-UP)</h2>
 
-						<div className="img-con">
+						<div className="img-con-2">
 							<img src={DescinderSiteMapping} alt="Descinder app site mapping" />
 						</div>
 					</div>

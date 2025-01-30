@@ -5,6 +5,10 @@ import {
 	DotBodyImg2,
 	DotBodyImg3,
 	DotBodyImg4,
+	DotBodyImg5,
+	DotBodyImg6,
+	DotBodyImg7,
+	DotBodyImg8,
 	DotChart,
 	DotChartDetails,
 	DotHighFidelity,
@@ -260,6 +264,11 @@ const Body = () => {
 					</div>
 				</div>
 
+				<div className="persona-mobile">
+					<img src={DotBodyImg5} alt="Dot" />
+					<img src={DotBodyImg6} alt="Dot" />
+				</div>
+
 				{/* section 4 */}
 				<div>
 					<div>
@@ -286,6 +295,11 @@ const Body = () => {
 
 						<div className="img-con">
 							<img src={DotHighFidelity} alt="Dot high fidelity wireframe" />
+						</div>
+
+						<div className="img-con-2">
+							<img src={DotBodyImg7} alt="Dot" />
+							<img src={DotBodyImg8} alt="Dot" />
 						</div>
 					</div>
 					<div>

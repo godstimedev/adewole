@@ -38,7 +38,7 @@ export const Container = styled.section`
 			h2 {
 				/* ${({ theme }) => theme.fonts.kanitFont} */
 				font-size: 2rem;
-				font-weight: 400;
+				font-weight: 400 !important;
 				line-height: 2.5rem;
 				letter-spacing: -0.05rem;
 				color: #1c1d20;
@@ -94,7 +94,7 @@ export const Container = styled.section`
 					h3 {
 						${({ theme }) => theme.fonts.kanitFont}
 						font-size: 1.5rem;
-						font-weight: 700;
+						font-weight: 500;
 						line-height: 2.1rem;
 						text-transform: uppercase;
 
@@ -206,7 +206,7 @@ export const Container = styled.section`
 
 			h2 {
 				font-size: 2.5rem;
-				font-weight: 700;
+				font-weight: 500;
 				line-height: 2.37875rem;
 				letter-spacing: -0.04758rem;
 				text-align: center;
@@ -315,7 +315,7 @@ export const Container = styled.section`
 
 			h2 {
 				font-size: 2.5rem;
-				font-weight: 700;
+				font-weight: 500;
 				line-height: 2.37875rem;
 				letter-spacing: -0.04758rem;
 				text-align: center;
@@ -331,7 +331,7 @@ export const Container = styled.section`
 			p {
 				${({ theme }) => theme.fonts.syneFont}
 				font-size: 20px;
-				font-weight: 400;
+				font-weight: 400 !important;
 				line-height: 22.84px;
 				text-align: center;
 				max-width: 967px;

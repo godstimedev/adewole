@@ -46,8 +46,6 @@ const GlobalStyles = createGlobalStyle`
    h6 {
       ${({ theme }) => theme.fonts.kanitFont};
 
-      font-weight: 700;
-      letter-spacing: 0.02em;
    }
    .display1 {
       ${({ theme }) => theme.fonts.syneFont};
@@ -74,6 +72,14 @@ const GlobalStyles = createGlobalStyle`
          line-height: 3.3125rem; 
          text-align: center;
       };
+   }
+   h1{
+      font-weight: 700;
+      letter-spacing: 0.02em;
+   }
+   h2,h3{
+      font-weight: 500 ;
+      letter-spacing: 0.02em;
    }
 
  

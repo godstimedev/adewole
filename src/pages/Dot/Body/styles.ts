@@ -38,7 +38,7 @@ export const Container = styled.section`
 			h2 {
 				/* ${({ theme }) => theme.fonts.kanitFont} */
 				font-size: 2rem;
-				font-weight: 400;
+				font-weight: 400 !important;
 				line-height: 2.5rem;
 				letter-spacing: -0.05rem;
 				color: #1c1d20;
@@ -94,7 +94,7 @@ export const Container = styled.section`
 					h3 {
 						${({ theme }) => theme.fonts.kanitFont}
 						font-size: 1.5rem;
-						font-weight: 700;
+						font-weight: 500;
 						line-height: 2.1rem;
 						text-transform: uppercase;
 
@@ -110,7 +110,7 @@ export const Container = styled.section`
 							list-style-type: disc;
 							color: #6f6e6e;
 							font-size: 1.5rem;
-							font-weight: 400;
+							font-weight: 400 !important;
 							line-height: 2.1rem;
 
 							${maxQuery('sm')} {
@@ -122,7 +122,7 @@ export const Container = styled.section`
 					p {
 						color: #6f6e6e;
 						font-size: 1.5rem;
-						font-weight: 400;
+						font-weight: 400 !important;
 						line-height: 2.1rem;
 
 						${maxQuery('sm')} {
@@ -214,14 +214,14 @@ export const Container = styled.section`
 
 				p {
 					font-size: 1.25rem;
-					font-weight: 400;
+					font-weight: 400 !important;
 					line-height: 1.5rem;
 					text-align: justify;
 					color: #6f6e6e;
 
 					${maxQuery('sm')} {
 						font-size: 20px;
-						font-weight: 400;
+						font-weight: 400 !important;
 						line-height: 24px;
 						text-align: center;
 					}
@@ -246,7 +246,7 @@ export const Container = styled.section`
 
 				h2 {
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -262,7 +262,7 @@ export const Container = styled.section`
 				p {
 					${({ theme }) => theme.fonts.syneFont}
 					font-size: 20px;
-					font-weight: 400;
+					font-weight: 400 !important;
 					line-height: 22.84px;
 					text-align: center;
 					max-width: 967px;
@@ -321,7 +321,7 @@ export const Container = styled.section`
 
 					h3 {
 						font-size: 32px;
-						font-weight: 700;
+						font-weight: 500;
 						line-height: 38.06px;
 						letter-spacing: -0.7612912058830261px;
 						text-align: center;
@@ -338,7 +338,7 @@ export const Container = styled.section`
 					p {
 						${({ theme }) => theme.fonts.syneFont};
 						font-size: 1.25rem;
-						font-weight: 400;
+						font-weight: 400 !important;
 						line-height: 1.4275rem;
 						text-align: justify;
 						color: rgba(0, 0, 0, 0.7);
@@ -405,7 +405,7 @@ export const Container = styled.section`
 								list-style-type: disc;
 								color: #222222;
 								font-size: 20px;
-								font-weight: 400;
+								font-weight: 400 !important;
 								line-height: 30px;
 
 								${maxQuery('sm')} {
@@ -474,7 +474,7 @@ export const Container = styled.section`
 
 			h2 {
 				font-size: 2.5rem;
-				font-weight: 700;
+				font-weight: 500;
 				line-height: 2.37875rem;
 				letter-spacing: -0.04758rem;
 				text-align: center;
@@ -490,7 +490,7 @@ export const Container = styled.section`
 
 			p {
 				font-size: 1.25rem;
-				font-weight: 400;
+				font-weight: 400 !important;
 				line-height: 1.4275rem;
 				text-align: center;
 				max-width: 967px;
@@ -513,7 +513,7 @@ export const Container = styled.section`
 
 					color: #055445;
 					font-size: 18.48px;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 25.87px;
 					text-transform: uppercase;
 					display: flex;
@@ -522,7 +522,7 @@ export const Container = styled.section`
 
 				p {
 					font-size: 18px;
-					font-weight: 400;
+					font-weight: 400 !important;
 					line-height: 20.14px;
 					text-align: left;
 					color: #333333;
@@ -532,7 +532,7 @@ export const Container = styled.section`
 					/* ${({ theme }) => theme.fonts.syneFont} */
 					text-transform: uppercase;
 					font-size: 14px;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 19.6px;
 					color: #828282;
 				}
@@ -553,7 +553,7 @@ export const Container = styled.section`
 						li {
 							list-style-type: disc;
 							font-size: 18px;
-							font-weight: 400;
+							font-weight: 400 !important;
 							line-height: 20.14px;
 							text-align: left;
 							color: #333333;
@@ -600,14 +600,36 @@ export const Container = styled.section`
 			}
 		}
 
+		.persona-mobile {
+			display: none;
+			background-color: #fafafa;
+			width: 100%;
+			height: 1132px;
+
+			${maxQuery('lg')} {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 2rem;
+			}
+
+			img {
+				width: 217px;
+				height: 469.88px;
+				object-fit: cover;
+			}
+		}
+
 		> div:last-child {
 			display: flex;
 			flex-direction: column;
 			gap: 6rem;
 
-			${maxQuery('md')} {
-				gap: 2rem;
-				display: none;
+			> div:first-child {
+				${maxQuery('md')} {
+					display: none;
+				}
 			}
 
 			> div {
@@ -621,7 +643,7 @@ export const Container = styled.section`
 
 				h2 {
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -638,21 +660,23 @@ export const Container = styled.section`
 				h3 {
 					/* ${({ theme }) => theme.fonts.syneFont} */
 					font-size: 28px;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 22.84px;
 					text-align: center;
+					text-transform: uppercase;
 
 					${maxQuery('sm')} {
-						font-size: 20px;
-						line-height: 20px;
+						font-size: 28px;
+						line-height: 28px;
 						letter-spacing: -0.7612912058830261px;
 						text-align: center;
+						margin-top: 3rem;
 					}
 				}
 
 				p {
 					font-size: 1.25rem;
-					font-weight: 400;
+					font-weight: 400 !important;
 					line-height: 1.4275rem;
 					text-align: center;
 					max-width: 967px;
@@ -670,9 +694,34 @@ export const Container = styled.section`
 					height: 749px;
 					margin: auto;
 
+					${maxQuery('md')} {
+						display: none;
+					}
+
 					img {
 						width: 100%;
 						height: 100%;
+						object-fit: cover;
+					}
+				}
+
+				> .img-con-2 {
+					display: none;
+
+					${maxQuery('md')} {
+						background-color: #fafafa;
+						width: 100%;
+						height: 1132px;
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						gap: 2rem;
+					}
+
+					img {
+						width: 216.94px;
+						height: 470.63px;
 						object-fit: cover;
 					}
 				}
@@ -681,6 +730,11 @@ export const Container = styled.section`
 					display: grid;
 					grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
 					gap: 2rem;
+
+					${maxQuery('md')} {
+						grid-template-columns: repeat(auto-fill, minmax(312px, 1fr));
+						margin-top: 2rem;
+					}
 
 					img {
 						width: 100%;
@@ -693,6 +747,11 @@ export const Container = styled.section`
 				max-width: 460.25px;
 				height: 302px;
 				margin: auto;
+
+				${maxQuery('md')} {
+					width: 312px;
+					height: 204.72px;
+				}
 
 				img {
 					width: 100%;

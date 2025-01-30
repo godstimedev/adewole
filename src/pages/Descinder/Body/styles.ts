@@ -99,7 +99,7 @@ export const Container = styled.section`
 					h3 {
 						/* ${({ theme }) => theme.fonts.syneFont} */
 						font-size: 1.5rem;
-						font-weight: 700;
+						font-weight: 500;
 						line-height: 2.1rem;
 						text-transform: uppercase;
 
@@ -203,7 +203,7 @@ export const Container = styled.section`
 
 				h3 {
 					font-size: 2rem;
-					font-weight: 600;
+					font-weight: 500;
 					line-height: 1.62rem;
 					letter-spacing: -0.054rem;
 					text-transform: uppercase;
@@ -250,7 +250,7 @@ export const Container = styled.section`
 
 				h2 {
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -315,7 +315,7 @@ export const Container = styled.section`
 						/* ${({ theme }) => theme.fonts.syneFont} */
 
 						font-size: 1.665625rem;
-						font-weight: 600;
+						font-weight: 500;
 						line-height: 1.541875rem;
 						letter-spacing: -0.051387rem;
 						text-align: left;
@@ -353,7 +353,7 @@ export const Container = styled.section`
 						span {
 							/* ${({ theme }) => theme.fonts.syneFont}; */
 							font-size: 1.125rem;
-							font-weight: 700;
+							font-weight: 500;
 							line-height: 2.379rem;
 							letter-spacing: -0.0476rem;
 							text-align: center;
@@ -429,7 +429,7 @@ export const Container = styled.section`
 				h2 {
 					/* ${({ theme }) => theme.fonts.syneFont} */
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -459,6 +459,107 @@ export const Container = styled.section`
 			}
 		}
 
+		.section-4-mobile {
+			display: none;
+
+			${maxQuery('lg')} {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 4rem;
+			}
+
+			.img-con-1 {
+				width: 100%;
+				height: 599px;
+				background-image: url(${DescinderBodyBg2});
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				img {
+					width: 217.52px;
+					height: 471px;
+					object-fit: cover;
+				}
+			}
+			.img-con-2 {
+				height: 1080px;
+				display: flex;
+
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 2rem;
+
+				background-color: #5f79e9;
+
+				img {
+					width: 216.43px;
+					height: 468.64px;
+					object-fit: cover;
+				}
+			}
+			.img-con-3 {
+				width: 100%;
+				height: 596px;
+				background-image: url(${DescinderBodyBg2});
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				img {
+					width: 202.97px;
+					height: 439.51px;
+					object-fit: cover;
+				}
+			}
+
+			> div:nth-child(2) {
+				display: flex;
+				flex-direction: column;
+				gap: 2rem;
+
+				> div:first-child {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					gap: 1rem;
+				}
+
+				h2 {
+					/* ${({ theme }) => theme.fonts.syneFont} */
+					font-size: 2.5rem;
+					font-weight: 500;
+					line-height: 2.37875rem;
+					letter-spacing: -0.04758rem;
+					text-align: center;
+
+					${maxQuery('sm')} {
+						font-size: 28px;
+						line-height: 28px;
+						letter-spacing: -0.7612912058830261px;
+						text-align: center;
+					}
+				}
+
+				p {
+					font-size: 1.25rem;
+					font-weight: 400;
+					line-height: 1.4275rem;
+					text-align: center;
+					max-width: 967px;
+					margin: auto;
+				}
+			}
+		}
+
 		> div:last-child {
 			display: flex;
 			flex-direction: column;
@@ -481,7 +582,7 @@ export const Container = styled.section`
 				h2 {
 					/* ${({ theme }) => theme.fonts.syneFont} */
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -506,6 +607,17 @@ export const Container = styled.section`
 				> .img-con {
 					max-width: 1179px;
 					height: 749px;
+					margin: auto;
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+				> .img-con-2 {
+					max-width: 1179px;
+					height: 656px;
 					margin: auto;
 
 					img {

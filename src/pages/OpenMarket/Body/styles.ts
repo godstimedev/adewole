@@ -39,7 +39,7 @@ export const Container = styled.section`
 
 			h2 {
 				font-size: 2rem;
-				font-weight: 400;
+				font-weight: 400 !important;
 				line-height: 2.5rem;
 				letter-spacing: -0.05rem;
 				color: #1c1d20;
@@ -94,7 +94,7 @@ export const Container = styled.section`
 
 					h3 {
 						font-size: 1.5rem;
-						font-weight: 700;
+						font-weight: 500;
 						line-height: 2.1rem;
 						text-transform: uppercase;
 
@@ -110,7 +110,7 @@ export const Container = styled.section`
 							list-style-type: disc;
 							color: #6f6e6e;
 							font-size: 1.5rem;
-							font-weight: 400;
+							font-weight: 400 !important;
 							line-height: 2.1rem;
 
 							${maxQuery('sm')} {
@@ -122,7 +122,7 @@ export const Container = styled.section`
 					p {
 						color: #6f6e6e;
 						font-size: 1.5rem;
-						font-weight: 400;
+						font-weight: 400 !important;
 						line-height: 2.1rem;
 
 						${maxQuery('sm')} {
@@ -213,14 +213,14 @@ export const Container = styled.section`
 
 				p {
 					font-size: 1.25rem;
-					font-weight: 400;
+					font-weight: 400 !important;
 					line-height: 1.5rem;
 					text-align: justify;
 					color: #6f6e6e;
 
 					${maxQuery('sm')} {
 						font-size: 20px;
-						font-weight: 400;
+						font-weight: 400 !important;
 						line-height: 24px;
 						text-align: center;
 					}
@@ -246,7 +246,7 @@ export const Container = styled.section`
 
 				h2 {
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -261,7 +261,7 @@ export const Container = styled.section`
 
 				p {
 					font-size: 20px;
-					font-weight: 400;
+					font-weight: 400 !important;
 					line-height: 22.84px;
 					text-align: center;
 					max-width: 967px;
@@ -305,7 +305,7 @@ export const Container = styled.section`
 
 				h2 {
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -339,7 +339,7 @@ export const Container = styled.section`
 
 						h3 {
 							font-size: 1.665625rem;
-							font-weight: 600;
+							font-weight: 500;
 							line-height: 1.541875rem;
 							letter-spacing: -0.051387rem;
 							text-align: left;
@@ -355,7 +355,7 @@ export const Container = styled.section`
 
 						p {
 							font-size: 1.25rem;
-							font-weight: 400;
+							font-weight: 400 !important;
 							line-height: 1.4275rem;
 							text-align: justify;
 							color: rgba(0, 0, 0, 0.7);
@@ -383,7 +383,7 @@ export const Container = styled.section`
 
 				h2 {
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -399,7 +399,7 @@ export const Container = styled.section`
 
 				h3 {
 					font-size: 2rem;
-					font-weight: 600;
+					font-weight: 500;
 					line-height: 1.62rem;
 					letter-spacing: -0.054rem;
 					text-transform: uppercase;
@@ -448,7 +448,7 @@ export const Container = styled.section`
 							list-style-type: disc;
 							color: #000;
 							font-size: 20px;
-							font-weight: 400;
+							font-weight: 400 !important;
 							line-height: 24px;
 							text-align: justify;
 
@@ -496,7 +496,7 @@ export const Container = styled.section`
 
 				h2 {
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -535,7 +535,7 @@ export const Container = styled.section`
 
 						p {
 							font-size: 20px;
-							font-weight: 400;
+							font-weight: 400 !important;
 							line-height: 22.1px;
 							letter-spacing: -0.02em;
 							color: #101010;
@@ -556,7 +556,7 @@ export const Container = styled.section`
 
 					h2 {
 						font-size: 2.5rem;
-						font-weight: 700;
+						font-weight: 500;
 						line-height: 2.37875rem;
 						letter-spacing: -0.04758rem;
 						text-align: center;
@@ -572,7 +572,7 @@ export const Container = styled.section`
 
 					p {
 						font-size: 1.25rem;
-						font-weight: 400;
+						font-weight: 400 !important;
 						line-height: 1.4275rem;
 						text-align: center;
 						max-width: 967px;
@@ -603,7 +603,7 @@ export const Container = styled.section`
 
 						h3 {
 							font-size: 32px;
-							font-weight: 700;
+							font-weight: 500;
 							line-height: 38.06px;
 							letter-spacing: -0.7612912058830261px;
 							text-align: center;
@@ -619,7 +619,7 @@ export const Container = styled.section`
 
 						p {
 							font-size: 1.25rem;
-							font-weight: 400;
+							font-weight: 400 !important;
 							line-height: 1.4275rem;
 							text-align: justify;
 							color: rgba(0, 0, 0, 0.7);
@@ -643,7 +643,7 @@ export const Container = styled.section`
 
 							h4 {
 								font-size: 24px;
-								font-weight: 700;
+								font-weight: 500;
 								line-height: 26.52px;
 								text-align: center;
 							}
@@ -671,7 +671,7 @@ export const Container = styled.section`
 									list-style-type: disc;
 									color: #222222;
 									font-size: 20px;
-									font-weight: 400;
+									font-weight: 400 !important;
 									line-height: 30px;
 
 									${maxQuery('sm')} {
@@ -733,9 +733,10 @@ export const Container = styled.section`
 			flex-direction: column;
 			gap: 5rem;
 
-			${maxQuery('md')} {
-				gap: 2rem;
-				display: none;
+			> div:nth-child(2) {
+				${maxQuery('lg')} {
+					display: none;
+				}
 			}
 
 			> div {
@@ -749,7 +750,7 @@ export const Container = styled.section`
 
 				h2 {
 					font-size: 2.5rem;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 2.37875rem;
 					letter-spacing: -0.04758rem;
 					text-align: center;
@@ -765,7 +766,7 @@ export const Container = styled.section`
 
 				h3 {
 					font-size: 28px;
-					font-weight: 700;
+					font-weight: 500;
 					line-height: 22.84px;
 					text-align: center;
 
@@ -779,7 +780,7 @@ export const Container = styled.section`
 
 				p {
 					font-size: 1.25rem;
-					font-weight: 400;
+					font-weight: 400 !important;
 					line-height: 1.4275rem;
 					text-align: center;
 					max-width: 967px;
@@ -793,7 +794,7 @@ export const Container = styled.section`
 				}
 
 				> .img-con {
-					max-width: 1147px;
+					max-width: 1148px;
 					height: 668px;
 					margin: auto;
 
@@ -803,11 +804,63 @@ export const Container = styled.section`
 						object-fit: cover;
 					}
 				}
+				> .img-con-1 {
+					max-width: 1148px;
+					height: 668px;
+					margin: auto;
+
+					${maxQuery('md')} {
+						display: none;
+					}
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+				> .img-con-2 {
+					display: none;
+					height: 636.41px;
+
+					${maxQuery('md')} {
+						display: block;
+					}
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+				> .img-con-3 {
+					display: none;
+					height: 1107px;
+					background-color: #fafafa;
+
+					${maxQuery('md')} {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						flex-direction: column;
+						gap: 2rem;
+					}
+
+					img {
+						width: 216.81px;
+						height: 469.47px;
+						object-fit: cover;
+					}
+				}
 
 				.images {
 					display: grid;
 					grid-template-columns: repeat(auto-fill, minmax(590px, 1fr));
 					gap: 2rem;
+
+					${maxQuery('md')} {
+						grid-template-columns: repeat(auto-fill, minmax(294.61px, 1fr));
+					}
 
 					img {
 						width: 100%;
@@ -820,6 +873,10 @@ export const Container = styled.section`
 					display: grid;
 					grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
 					gap: 2rem;
+
+					${maxQuery('md')} {
+						grid-template-columns: repeat(auto-fill, minmax(205.12px, 1fr));
+					}
 
 					img {
 						width: 100%;

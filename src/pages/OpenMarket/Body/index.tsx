@@ -4,6 +4,10 @@ import {
 	DotRoles,
 	OpenBodyImg1,
 	OpenBodyImg2,
+	OpenBodyImg3,
+	OpenBodyImg4,
+	OpenBodyImg5,
+	OpenBodyImg6,
 	OpenHighWireframe,
 	OpenIcons,
 	OpenInfoChart,
@@ -12,6 +16,7 @@ import {
 	OpenResearch1,
 	OpenResearch2,
 	OpenTypography,
+	OpenTypography2,
 	OpenUpload,
 } from '../../../assets/images';
 import { GoalOne, GoalThree, GoalTwo, No1, No2, No3 } from '../../../assets/svgs';
@@ -299,7 +304,9 @@ const Body = () => {
 						</div>
 					</div>
 					<div>
-						<h2>INFORMATION ARCHITECTURE & JOURNEY (RETAILERS)</h2>
+						<h2>
+							INFORMATION ARCHITECTURE &<br /> JOURNEY (RETAILERS)
+						</h2>
 						<p>
 							We choose to conduct surveys and interviews as part of our user research approach to better
 							understand the needs of our users. Because they provide quantifiable data, surveys are an
@@ -320,8 +327,11 @@ const Body = () => {
 							research (interviews) to thoroughly comprehend the design approach.
 						</p>
 
-						<div className="img-con">
+						<div className="img-con-1">
 							<img src={OpenTypography} alt="Typography and colors" />
+						</div>
+						<div className="img-con-2">
+							<img src={OpenTypography2} alt="Typography and colors" />
 						</div>
 					</div>
 					<div>
@@ -333,8 +343,13 @@ const Body = () => {
 							i created personas for the users.{' '}
 						</p>
 
-						<div className="img-con">
+						<div className="img-con-1">
 							<img src={OpenLowWireframe} alt="Low fidelity wireframe" />
+						</div>
+
+						<div className="img-con-3">
+							<img src={OpenBodyImg3} alt="Open Market" />
+							<img src={OpenBodyImg4} alt="Open Market" />
 						</div>
 					</div>
 					<div>
@@ -346,8 +361,13 @@ const Body = () => {
 							i created personas for the users.{' '}
 						</p>
 
-						<div className="img-con">
+						<div className="img-con-1">
 							<img src={OpenHighWireframe} alt="High fidelity wireframe" />
+						</div>
+
+						<div className="img-con-3">
+							<img src={OpenBodyImg5} alt="Open Market" />
+							<img src={OpenBodyImg6} alt="Open Market" />
 						</div>
 					</div>
 					<div>
