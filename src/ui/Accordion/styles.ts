@@ -4,6 +4,7 @@ import { maxQuery } from '../../utilities';
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 
 	hr {
 		border-top: 1.76px solid ${({ theme }) => theme.colors.white} !important;

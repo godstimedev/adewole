@@ -1,4 +1,4 @@
-import { NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { ArrowBack, File, Logo, MenuIcon, NavClose } from '../../assets/svgs';
 import { Button } from '../../ui';
 import { Container } from './styles';
@@ -32,12 +32,12 @@ const Navbar = () => {
 							<NavLink to={item.link}>{item.name}</NavLink>
 						</li>
 					))}
-					{/* <a href="/cv.pdf" download="Adewole_CV.pdf"> */}
-					<Button>
-						<File />
-						Download CV
-					</Button>
-					{/* </a> */}
+					<Link to={'https://tomato-alexis-88.tiiny.site'} target="_blank">
+						<Button>
+							<File />
+							Download CV
+						</Button>
+					</Link>
 				</ul>
 
 				<button className="menu" onClick={() => setIsOpen(true)}>
@@ -63,12 +63,12 @@ const Navbar = () => {
 								</li>
 							))}
 
-							{/* <a href="/cv.pdf" download="Adewole_CV.pdf"> */}
-							<Button>
-								<File />
-								Download CV
-							</Button>
-							{/* </a> */}
+							<Link to={'https://tomato-alexis-88.tiiny.site'} target="_blank">
+								<Button>
+									<File />
+									Download CV
+								</Button>
+							</Link>
 						</ul>
 					</div>
 				</div>

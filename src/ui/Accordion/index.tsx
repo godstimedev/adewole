@@ -28,7 +28,7 @@ const FaqAccordion = (props: AccordionProps) => {
 							maxHeight: openIndex === index ? contentRef.current?.scrollHeight : 0,
 						}}
 					>
-						<p>{item.content}</p>
+						{item.content}
 					</div>
 				</div>
 			))}

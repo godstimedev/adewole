@@ -55,8 +55,9 @@ export const Container = styled.div<StyledProps>`
 
 		img {
 			width: 200px;
+			max-height: 70px;
 			height: 100%;
-			object-fit: cover;
+			object-fit: contain;
 		}
 
 		p {

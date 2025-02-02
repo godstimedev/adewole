@@ -4,15 +4,10 @@ export const educationData = [
 		content: (
 			<div className="content">
 				<div>
-					<h5>IT Project Management</h5>
+					<h5>MSc. IT Project Management</h5>
 
 					<span>2021 -2023</span>
 				</div>
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et
-					dolore magna aliqua.
-				</p>
 			</div>
 		),
 	},
@@ -21,15 +16,10 @@ export const educationData = [
 		content: (
 			<div className="content">
 				<div>
-					<h5>IT Project Management</h5>
+					<h5>Business Product Management</h5>
 
-					<span>2021 -2023</span>
+					<span>2020 - 2021</span>
 				</div>
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et
-					dolore magna aliqua.
-				</p>
 			</div>
 		),
 	},
@@ -38,15 +28,10 @@ export const educationData = [
 		content: (
 			<div className="content">
 				<div>
-					<h5>IT Project Management</h5>
+					<h5>B.Sc. Physics</h5>
 
-					<span>2021 -2023</span>
+					<span>2008 -2013</span>
 				</div>
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et
-					dolore magna aliqua.
-				</p>
 			</div>
 		),
 	},
@@ -58,17 +43,12 @@ export const experienceData = [
 		content: (
 			<div className="content">
 				<div>
-					<h5>Head of Design</h5>
+					<h5>Head of Design (Founding Member)</h5>
 
 					<span>
 						2022 - <span className="present">Presents</span>
 					</span>
 				</div>
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et
-					dolore magna aliqua.
-				</p>
 			</div>
 		),
 	},
@@ -77,15 +57,10 @@ export const experienceData = [
 		content: (
 			<div className="content">
 				<div>
-					<h5>Head of Design</h5>
+					<h5>Snr UX Designer</h5>
 
-					<span>2021 -2023</span>
+					<span>2021 – 2022</span>
 				</div>
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et
-					dolore magna aliqua.
-				</p>
 			</div>
 		),
 	},
@@ -94,15 +69,10 @@ export const experienceData = [
 		content: (
 			<div className="content">
 				<div>
-					<h5>Head of Design</h5>
+					<h5>Snr Product Designer</h5>
 
-					<span>2021 -2023</span>
+					<span>2021 -2024</span>
 				</div>
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et
-					dolore magna aliqua.
-				</p>
 			</div>
 		),
 	},

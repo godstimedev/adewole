@@ -17,7 +17,7 @@ export const Container = styled.section`
 		justify-content: space-between;
 		gap: 4rem;
 
-		${maxQuery('md')} {
+		${maxQuery('lg')} {
 			flex-direction: column;
 		}
 
@@ -47,6 +47,7 @@ export const Container = styled.section`
 		flex-direction: column;
 		gap: 1rem;
 		padding-bottom: 2rem;
+		width: 100%;
 
 		${maxQuery('sm')} {
 			padding-bottom: 1.5rem;
@@ -57,6 +58,7 @@ export const Container = styled.section`
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
+			gap: 2rem;
 
 			h5 {
 				font-size: 1.25rem;

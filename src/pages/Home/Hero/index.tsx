@@ -36,14 +36,14 @@ const Hero = () => {
 				</p>
 
 				<div>
-					<Link to={'/'}>
+					<Link to={'https://www.linkedin.com/in/adewole-ampitan-43308697/'} target="_blank">
 						<Linkedin />
 					</Link>
-					<Link to={'/'}>
+					<Link to={'https://www.instagram.com/ampitanade/'}>
 						{' '}
 						<Instagram />
 					</Link>
-					<Link to={'/'}>
+					<Link to={'https://www.behance.net/ampitanadeb677'} target="_blank">
 						{' '}
 						<Behance />
 					</Link>
