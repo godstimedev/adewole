@@ -39,7 +39,7 @@ const Hero = () => {
 					<Link to={'https://www.linkedin.com/in/adewole-ampitan-43308697/'} target="_blank">
 						<Linkedin />
 					</Link>
-					<Link to={'https://www.instagram.com/ampitanade/'}>
+					<Link to={'https://www.instagram.com/ampitanade/'} target="_blank">
 						{' '}
 						<Instagram />
 					</Link>
