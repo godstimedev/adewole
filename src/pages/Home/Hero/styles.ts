@@ -26,6 +26,7 @@ export const Container = styled.section`
 		align-items: center;
 		justify-content: center;
 		min-height: 100%;
+		margin-top: 2rem;
 	}
 
 	> div:first-child {
