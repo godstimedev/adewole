@@ -117,6 +117,12 @@ export const Container = styled.header<StyledPropType>`
 					display: flex;
 					align-items: center;
 					justify-content: center;
+
+					svg {
+						path {
+							fill: ${({ theme }) => theme.colors.black};
+						}
+					}
 				}
 			`}
 

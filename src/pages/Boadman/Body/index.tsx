@@ -65,10 +65,8 @@ const Body = () => {
 						<h2>Landing Page (Web)</h2>
 
 						<p>
-							To address Descinder's challenge of uniting businesses and early-career individuals on a
-							user-friendly platform, the best strategy is a comprehensive UX design. Prioritize a seamless
-							interface, ensuring accessibility and ease of use for businesses, interns, and fresh
-							graduates.
+							We created the Boadman landing page to clearly showcase its unique value—where users play,
+							have fun, and win prizes—while ensuring seamless onboarding through easy sign-ups and logins.
 						</p>
 					</div>
 
@@ -102,10 +100,10 @@ const Body = () => {
 						<h2>Gaming Modules (Mobile Responsiveness)</h2>
 
 						<p>
-							To address Descinder's challenge of uniting businesses and early-career individuals on a
-							user-friendly platform, the best strategy is a comprehensive UX design. Prioritize a seamless
-							interface, ensuring accessibility and ease of use for businesses, interns, and fresh
-							graduates.
+							The gaming module allows users to seamlessly track their game history, upcoming matches,
+							tournaments, and challenges in one place. It provides a clear overview of past performance,
+							upcoming opportunities, and ongoing competitions, ensuring users stay informed and engaged
+							with the platform.
 						</p>
 					</div>
 
@@ -142,10 +140,9 @@ const Body = () => {
 						<h2>Gaming Overview</h2>
 
 						<p>
-							To address Descinder's challenge of uniting businesses and early-career individuals on a
-							user-friendly platform, the best strategy is a comprehensive UX design. Prioritize a seamless
-							interface, ensuring accessibility and ease of use for businesses, interns, and fresh
-							graduates.
+							The gaming module is a web application responsive to mobile, allowing users to track their
+							game history, upcoming matches, tournaments, and challenges seamlessly from any device,
+							ensuring easy access and engagement.
 						</p>
 					</div>
 
